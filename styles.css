@@ -8,13 +8,17 @@ img {
     margin-right : 10px
 }
 
+h1.modheader{
+    font : bold;
+    font-size : 20px;
+}
 
 h1.username{
     font : bold;
 }
 
 body{
-    background-color : powderblue;
+    background-color : rgba(173, 37, 37, 0.377);
 }
 
 h1.sectionals{
