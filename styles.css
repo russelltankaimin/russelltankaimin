@@ -18,10 +18,15 @@ body{
 }
 
 h1.sectionals{
-    font-size : 18px !important;
+    font-size : 18px ;
     font : bold;
 }
 
 p.username{
     font : bold;
+}
+
+ul.side_list{
+    width : 10%;
+    float : left;
 }
