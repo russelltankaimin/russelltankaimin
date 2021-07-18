@@ -6,16 +6,40 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <p>This is a collection of interesting articles to read. It is not limited to science or mathematics.</p>
+        <p>This is a collection of interesting articles and research papers to read. It is not limited to science or mathematics.</p>
         <ul>
             <li>
-                <a href="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf">Finding Useful Lemmas in SAT Solvers</a>
+                <p class="title">Title: Crystalball: Gazing in the Black Box of SAT Solving
+                    <a href="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf">paper</a>
+                </p>
+                <p class="author">Authors : Mate Soos, Raghav Kulkarni, Kuldeep S. Meel</p>
+                <p class="description">Short Description : The main paper which I consulted during my internship at DSO before university. This paper introduces the Crystalball framework in SAT solving. Essentially, we view SAT solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management and restarting. This paper opened my eyes to the combination of artificial intelligence and SAT solving.
+                    UNSAT instances will generate a proof of unsatisfiability and this proof contains a bunch of lemmas and deletion clauses. The lemmas consume a large part of memory and some are discarded after a few iterations which resulted in the deletion clauses in the proofs. However, this paper suggested another different approach which collected data of each lemma during the solving process and use
+                    the data collected to train a Decision Tree classifier to decide which lemmas to throw away or keep instead of letting it sit in the lemma database. The SAT solver (Cryptominisat) then recompiles to a machine learning model and this speeds up the time taken to determing unsatisfiability. This paper also allows us to see into the black box of SAT solving.
+                </p>
             </li>
             <li>
-                <a href = "https://www.comp.nus.edu.sg/~meel/Papers/date-cscm19.pdf">Bosphorus : Bridging ANF and CNF Solvers</a>
+                <p class="title">Title: Bosphorus : Bridging ANF and CNF Solvers
+                    <a href = "https://www.comp.nus.edu.sg/~meel/Papers/date-cscm19.pdf">paper</a>
+                </p>
+                <p class="author">Authors : Davin Choo
+                    , Mate Soos
+                    , Kian Ming A. Chai
+                    , and Kuldeep S. Meel</p>
+                <p class="description">Short Description : Algebraic Normal Form (ANF) and Conjunctive
+                    Normal Form (CNF) are commonly used to encode problems
+                    in Boolean algebra. ANFs are typically solved via Grobner ¨
+                    basis algorithms, often using more memory than is feasible;
+                    while CNFs are solved using SAT solvers, which cannot exploit
+                    the algebra of polynomials naturally. A paradigm
+                    that bridges between ANF and CNF solving techniques is proposed: the
+                    techniques are applied in an iterative manner to learn facts
+                    to augment the original problems. (Adapted from the paper's abstract)</p>
             </li>
             <li>
-                <a href = "https://deepmind.com/blog/article/FermiNet">FermiNet : Quantum Physics and Chemistry from First Principles</a>
+                <p class="title">Title : FermiNet : Quantum Physics and Chemistry from First Principles
+                <a href = "https://deepmind.com/blog/article/FermiNet">paper</a>
+                </p>
             </li>
             <li>
                 <a href = "https://deepmind.com/blog/article/EigenGame">Game theory as an engine for large-scale data analysis</a>
