@@ -9,14 +9,18 @@
         <p>This is a collection of interesting articles and research papers to read. It is not limited to science or mathematics.</p>
         <ul>
             <li>
+                <p class="title">Title: The Most Famous Paradox in Physics Nears Its End
+                    <a href="https://www.quantamagazine.org/the-black-hole-information-paradox-comes-to-an-end-20201029/">site</a>
+                </p>
+                <p class="author">Author : George Musser</p>
+                <p class="description">Short Description : A relatively hard read on the Black Hole Information Paradox but it is still a good read.</p>
+            </li>
+            <li>
                 <p class="title">Title: Crystalball: Gazing in the Black Box of SAT Solving
                     <a href="https://www.msoos.org/wordpress/wp-content/uploads/2019/06/sat19-skm.pdf">paper</a>
                 </p>
                 <p class="author">Authors : Mate Soos, Raghav Kulkarni, Kuldeep S. Meel</p>
-                <p class="description">Short Description : The main paper which I consulted during my internship at DSO before university. This paper introduces the Crystalball framework in SAT solving. Essentially, we view SAT solvers as a composition of classifiers and regressors for different tasks such as branching, clause memory management and restarting. This paper opened my eyes to the combination of artificial intelligence and SAT solving.
-                    UNSAT instances will generate a proof of unsatisfiability and this proof contains a bunch of lemmas and deletion clauses. The lemmas consume a large part of memory and some are discarded after a few iterations which resulted in the deletion clauses in the proofs. However, this paper suggested another different approach which collected data of each lemma during the solving process and use
-                    the data collected to train a Decision Tree classifier to decide which lemmas to throw away or keep instead of letting it sit in the lemma database. The SAT solver (Cryptominisat) then recompiles to a machine learning model and this speeds up the time taken to determing unsatisfiability. This paper also allows us to see into the black box of SAT solving.
-                </p>
+                <p class="description">Short Description : Using Machine Learning on SAT Solvers to find useful lemmas.</p>
             </li>
             <li>
                 <p class="title">Title: Bosphorus : Bridging ANF and CNF Solvers
@@ -26,15 +30,14 @@
                     , Mate Soos
                     , Kian Ming A. Chai
                     , and Kuldeep S. Meel</p>
-                <p class="description">Short Description : Algebraic Normal Form (ANF) and Conjunctive
-                    Normal Form (CNF) are commonly used to encode problems
-                    in Boolean algebra. ANFs are typically solved via Grobner ¨
-                    basis algorithms, often using more memory than is feasible;
-                    while CNFs are solved using SAT solvers, which cannot exploit
-                    the algebra of polynomials naturally. A paradigm
-                    that bridges between ANF and CNF solving techniques is proposed: the
-                    techniques are applied in an iterative manner to learn facts
-                    to augment the original problems. (Adapted from the paper's abstract)</p>
+                <p class="description">Short Description : Solving ANF faster using CNF solvers using the Bosphorus mastersolver</p>
+            </li>
+            <li>
+                <p class="title">Title: Mathematicians Prove 2D Version of Quantum Gravity Really Works
+                    <a href="https://www.quantamagazine.org/mathematicians-prove-2d-version-of-quantum-gravity-really-works-20210617/">site</a>
+                </p>
+                <p class="author">Author : Charlie Wood</p>
+                <p class="description">Short Description : Louville Quantum Field Theory which presents a 2D model of quantum gravity. Another hard read</p>
             </li>
             <li>
                 <p class="title">Title : FermiNet : Quantum Physics and Chemistry from First Principles
@@ -42,9 +45,8 @@
                 </p>
                 <p class="author">Authors : Authors : David Pfau, 
                     James Spencer, Alexander Matthews, Matthew Foulkes</p>
-                <p class="description">Short Description : FermiNet demonstrates the power of Deep Learning in helping us compute the energy of atoms
-                     and molecules from first principles which can help to solve the fundamental equations for Quantum Mechanics for real-world systems. 
-                     It can potentially allow researchers to create new materials and advance our understanding of the mysterious realm of Quantum Mechanics.
+                <p class="description">Short Description : Using Deep Learning in helping us compute the energy of atoms
+                     and molecules from first principles which can help to solve the fundamental equations for Quantum Mechanics for real-world systems.
                     </p>
             </li>
             <li>
@@ -53,26 +55,37 @@
                 </p>
                 <p class="author">Authors : Brian Mcwilliams, Ian Gemp, Claire Vernade</p>
                 <p class="description">Short Description : This blog shows us a very novel application of Principal Component analysis
-                    (PCA) as a multi-agent game called EigenGame. PCA is generally known as a dimensionality reduction tool for machine learning
-                    models to learn lower dimensional representations of datasets. Moreover, it shares a common aspect with a lot of machine learning
-                    tools : Singular Value Decomposition(SVD). In EigenGame each player controls an eigenvector. Players increase their score by explaining 
-                    variance within the data but are penalised if they’re too closely aligned to other players. We also establish a hierarchy: Player 1 only cares
-                    about maximising variance, whereas other players also have to worry about minimising their alignment with players above them in the hierarchy. 
-                    This combination of rewards and penalties defines each player’s utility. If all players play optimally, then they would have achieved Nash's Equilibrium.
-                    This can be achieved if each player maximises their utility independently and simultaneously using gradient ascent. (Some portions adapted from the blog post)
+                    (PCA) as a multi-agent game called EigenGame. 
                 </p>
             </li>
             <li>
-                <a href = "https://ieeexplore.ieee.org/document/747127">The implementation of partial least squares with artificial neural network architecture</a>
+                <p class="title">Title : The Implementation of Partial Least Squares with Artificial Neural Network Architecture
+                <a href = "https://ieeexplore.ieee.org/document/747127">Paper</a>
+                </p>
+                <p class="author">Authors : Tzu-Chien Hsiao, Chii-Wann Lin, Mang-Ting Zeng, H.-H.K. Chiang</p>
+                <p class="description">Short Description : This paper demonstrtates how partial least squares can contribute weights to initialise the weights and bias(?) of the neural network</p>
+            </li>
+            <li><p class="title">Title : Attention is all you need
+                <a href="https://arxiv.org/abs/1706.03762">Paper</a>
+                </p>
+                <p class="author">Authors : Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin</p>
+                <p class="description">Short Description : Introduction to the new state of the art transformer architecture for deep learning</p>
+            </li>
+            <li><p class="title">Title : Extending SAT_Solvers to Cryptographic Problems
+                <a href="https://www.researchgate.net/publication/220944429_Extending_SAT_Solvers_to_Cryptographic_Problems">Paper</a>
+                </p>
+                <p class="author">Authors : Mate Soos, Karsten Nohl, and Claude Castelluccia</p>
+                <p class='description'>Short Description : SAT Solvers which are tweaked to perform solve cryptographic functions</p>
             </li>
             <li>
-                <a href="https://arxiv.org/abs/1706.03762">Attention is all you need</a>
-            </li>
-            <li>
-                <a href="https://www.researchgate.net/publication/220944429_Extending_SAT_Solvers_to_Cryptographic_Problems">Extending SAT_Solvers to Cryptographic Problems</a>
-            </li>
-            <li>
-                <a href = "https://arxiv.org/abs/2106.00120">Probabilistic Deep Learning with Probabilistic Neural Networks and Deep Probabilistic Models</a>
+                <p class="title">Probabilistic Deep Learning with Probabilistic Neural Networks and Deep Probabilistic Models
+                <a href = "https://arxiv.org/abs/2106.00120">Paper</a>
+                </p>
+                <p class="author">Authors : Daniel T. Chang </p>
+                <p class="description">Short Description : About deep neural networks that utilize probabilistic layers which can represent and process uncertainty.</p>
+                <p class="description">* Introduces Tensorflow Probability Library
+                    <a href="https://www.tensorflow.org/probability">API</a>
+                </p>
             </li>
         </ul>
     </body>
