@@ -8,6 +8,10 @@ img {
     margin-right : 10px
 }
 
+dt.dd.quote{
+    font-family: Arial;
+}
+
 h1.modheader{
     font : bold;
     font-size : 20px;
@@ -117,3 +121,4 @@ ul#menu li {
 }
   
 .button4:hover {background-color: #e7e7e7;}
+
