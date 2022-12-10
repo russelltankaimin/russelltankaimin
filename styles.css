@@ -8,6 +8,11 @@ img {
     margin-right : 10px
 }
 
+reviewheader {
+    font-size : 30px;
+    font-family : 'Times New Roman';
+}
+
 dt.dd.quote{
     font-family: Arial;
 }
