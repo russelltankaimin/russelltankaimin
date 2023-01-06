@@ -55,3 +55,40 @@ a:active {
     margin-left: 50px;
     color:aquamarine
 }
+
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    justify-content: center;
+  }
+
+.wrapper-grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    height: fit-content;
+    justify-content: center;
+}
+
+.wrapper-grid3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 15rem);
+    height: fit-content;
+    justify-content: center;
+}
+
+  .skillscontainer {
+    overflow: hidden;
+    color: chartreuse;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: darkslateblue;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0.5rem;
+  }
+
+  .profile-img {
+    width: 8rem;
+    clip-path: circle(70px at center);
+    margin-top: 1px;
+  }
