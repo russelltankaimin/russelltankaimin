@@ -3,6 +3,29 @@ body {
     color: darkturquoise;
     font-family: 'Courier New', Courier, monospace;
 }
+
+a:link { 
+    text-decoration: none; 
+    color: darkturquoise;
+}
+
+
+a:visited { 
+    text-decoration: none;
+    color: darkturquoise;
+ }
+
+
+a:hover { 
+    text-decoration: none; 
+    color: darkturquoise;
+}
+
+
+a:active { 
+    text-decoration: none; 
+    color: darkturquoise;
+}
 .segment {
     padding : 15px;
     margin : 10px;
@@ -22,5 +45,13 @@ body {
 
 .username {
     font-size: xx-large;
+    color:aquamarine
+}
+
+.bio {
+    text-align: justify; 
+    font-size: xx-large; 
+    margin-right: 50px; 
+    margin-left: 50px;
     color:aquamarine
 }
