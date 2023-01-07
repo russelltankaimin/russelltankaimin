@@ -39,7 +39,8 @@ a:active {
 }
 
 .navbar {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 10rem);
     justify-content: space-evenly;
 }
 
@@ -76,6 +77,12 @@ a:active {
     justify-content: center;
 }
 
+.wrapper-grid4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    height: fit-content;
+}
+
   .skillscontainer {
     overflow: hidden;
     color: chartreuse;
@@ -90,5 +97,10 @@ a:active {
   .profile-img {
     width: 8rem;
     clip-path: circle(70px at center);
+    margin-top: 1px;
+  }
+
+  .proj-img {
+    width: 8rem;
     margin-top: 1px;
   }
