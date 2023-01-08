@@ -83,11 +83,28 @@ a:active {
     height: fit-content;
 }
 
+.wrapper-grid5 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 26rem);
+    height: fit-content;
+}
+
   .skillscontainer {
     overflow: hidden;
     color: chartreuse;
     box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
     background-color: darkslateblue;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin: 0.5rem;
+  }
+
+  .modcontainer {
+    overflow: hidden;
+    color: rgb(4, 30, 95);
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: rgb(131, 161, 57);
     text-align: center;
     border-radius: 1rem;
     position: relative;
@@ -101,6 +118,11 @@ a:active {
   }
 
   .proj-img {
+    width: 8rem;
+    margin-top: 1px;
+  }
+
+  .mod-img {
     width: 8rem;
     margin-top: 1px;
   }
