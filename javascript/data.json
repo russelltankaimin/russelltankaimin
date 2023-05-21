@@ -1,0 +1,119 @@
+{
+    "AY 2022/2023 Semester 2" : {
+        "nusmods" : [
+            "CS2109S",
+            "CS2103T",
+            "CS2101",
+            "MA2104",
+            "MA3252",
+            "CS4230"
+        ],
+        "names" : [
+            "Introduction to A.I and Machine Learning",
+            "Software Engineering",
+            "Effective Communication for Computing Professionals",
+            "Multivariable Calculus",
+            "Linear and Network Optimisation",
+            "Foundations of Modern Cryptography"
+        ],
+        "id" : 3,
+        "images" : [
+            "cs2109simg.png",
+            "cs2103timg.jpeg",
+            "es2660img.png",
+            "ma2104img.png",
+            "ma3252img.png",
+            "cs4230img.png"
+        ]
+    },
+    "AY 2022/2023 Semester 1" : {
+        "nusmods" : [
+            "CS2100",
+            "MA2101",
+            "MA2108",
+            "CS3230",
+            "ES2660",
+            "CP2106",
+            "CFG1002"
+        ],
+        "names" : [
+            "Computer Organisation",
+            "Linear Algebra II",
+            "Mathematical Analysis I",
+            "Design and Analysis of Algorithms",
+            "Communication in the Information Age",
+            "Orbital (Independent Software Engineering Project",
+            "Career Catalyst"
+        ],
+        "id" : 2,
+        "images" : [
+            "cs2100img.png",
+            "ma2101img.png",
+            "ma2108img.png",
+            "cs3230img.svg",
+            "es2660img.png",
+            "cp2106img.jpeg",
+            "cfg1002img.png"
+        ]
+    },
+    "AY 2021/2022 Semester 2" : {
+        "nusmods" : [
+            "CS2030S",
+            "CS2040S",
+            "ST2334",
+            "IS1103",
+            "GEA1000",
+            "GESS1027",
+            "CS1010R"
+        ],
+        "names" : [
+            "Programming Methodology II",
+            "Data Structures and Algorithms",
+            "Probability and Statistics",
+            "Ethics in Computing",
+            "Quantitative Reasoning with Data",
+            "La Kopi: Forging of the Singaporean Chinese Community",
+            "Programming Methodology I (Extra Credit)"
+        ],
+        "id" : 1,
+        "images" : [
+            "cs2030simg.jpeg",
+            "cs2040simg.jpeg",
+            "st2334img.png",
+            "is1103img.png",
+            "gea1000img.png",
+            "gess1027img.webp",
+            "cs1101simg.jpeg"
+        ]
+    },
+    "AY 2021/2022 Semester 1" : {
+        "nusmods" : [
+            "CS1101S",
+            "CS1231S",
+            "MA2001",
+            "MA1521",
+            "GEC1030"
+        ],
+        "names" : [
+            "Programming Methodology I",
+            "Discrete Structures",
+            "Linear Algebra I",
+            "Calculus for Computing",
+            "Metropolis : A City in World History"
+        ],
+        "id" : 0,
+        "images" : [
+            "cs1101simg.jpeg",
+            "cs1231simg.png",
+            "ma2001img.png",
+            "ma1521img.png",
+            "gec1030img.png"
+        ]
+    },
+    "hi" : {
+        "nusmods" : ["CS11111"],
+        "names" : ["Placeholder"],
+        "id" : 0
+    }
+
+}
