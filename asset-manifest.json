@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/russelltankaimin/static/css/main.9eedb431.css",
-    "main.js": "/russelltankaimin/static/js/main.106022f4.js",
+    "main.css": "/russelltankaimin/static/css/main.6b51d1f9.css",
+    "main.js": "/russelltankaimin/static/js/main.7b5935be.js",
     "static/js/787.7d4c0e86.chunk.js": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js",
     "static/media/russellcambridge.jpeg": "/russelltankaimin/static/media/russellcambridge.8403f04ba0be3728f872.jpeg",
     "index.html": "/russelltankaimin/index.html",
-    "main.9eedb431.css.map": "/russelltankaimin/static/css/main.9eedb431.css.map",
-    "main.106022f4.js.map": "/russelltankaimin/static/js/main.106022f4.js.map",
+    "main.6b51d1f9.css.map": "/russelltankaimin/static/css/main.6b51d1f9.css.map",
+    "main.7b5935be.js.map": "/russelltankaimin/static/js/main.7b5935be.js.map",
     "787.7d4c0e86.chunk.js.map": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eedb431.css",
-    "static/js/main.106022f4.js"
+    "static/css/main.6b51d1f9.css",
+    "static/js/main.7b5935be.js"
   ]
 }
