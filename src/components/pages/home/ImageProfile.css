@@ -1,0 +1,5 @@
+#image_profile {
+    flex-shrink: inherit;
+    max-width: 225px;
+    min-width: 225px;
+}
