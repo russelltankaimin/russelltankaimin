@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/russelltankaimin/static/css/main.d20202a4.css",
+    "main.js": "/russelltankaimin/static/js/main.ff3a6df8.js",
+    "static/js/787.7d4c0e86.chunk.js": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js",
+    "index.html": "/russelltankaimin/index.html",
+    "main.d20202a4.css.map": "/russelltankaimin/static/css/main.d20202a4.css.map",
+    "main.ff3a6df8.js.map": "/russelltankaimin/static/js/main.ff3a6df8.js.map",
+    "787.7d4c0e86.chunk.js.map": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d20202a4.css",
+    "static/js/main.ff3a6df8.js"
+  ]
+}
