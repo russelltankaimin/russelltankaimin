@@ -1,7 +1,27 @@
-#main {
-    color: rgb(6, 190, 231);
+.main, .introduction_p {
+    color: rgb(3, 65, 79);
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     font-weight: bold;
-    margin: 15px 15px 15px 15px;
+    margin: 0% 15% 0% 15%;
+    font-size: large;
+}
+
+.link_a {
+    display:inline
+}
+
+.contact {
+    font-size: 100%;
+    color: rgb(3, 65, 79);
+    margin: 2% 15% 10px 15%;
+    max-width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+a {
+    color: rgb(3, 65, 79);
+    /* margin-left: 10px; */
 }

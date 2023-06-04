@@ -1,8 +1,8 @@
 #description_name {
-    color: rgb(6, 190, 231);
+    color: rgb(3, 65, 79);
     font-weight: bolder;
     flex-shrink: inherit;
     flex-grow: inherit;
-    margin: 10px 10px 10px 10px;
+    margin: 2% 15% 1% 15%;
     font-family: 'Courier New', Courier, monospace;
 }
