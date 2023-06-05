@@ -1,5 +1,6 @@
 .main, .introduction_p {
-    color: rgb(3, 65, 79);
+    /* color: rgb(3, 65, 79); */
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     font-weight: bold;
@@ -13,7 +14,8 @@
 
 .contact {
     font-size: 100%;
-    color: rgb(3, 65, 79);
+    /* color: rgb(3, 65, 79); */
+    color: white;
     margin: 2% 15% 10px 15%;
     max-width: 100%;
     font-family: 'Courier New', Courier, monospace;

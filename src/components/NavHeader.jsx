@@ -6,7 +6,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom';
 
-function OffcanvasExample() {
+function NavHeader() {
 
   const expand = false
 
@@ -14,7 +14,7 @@ function OffcanvasExample() {
     <>
     <Navbar key={expand} bg="light" expand={expand} className="mb-3">
       <Container fluid>
-        <Navbar.Brand href="#">Tan Kai Min, Russell</Navbar.Brand>
+        <Navbar.Brand href='/'>Tan Kai Min, Russell</Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
@@ -51,4 +51,4 @@ function OffcanvasExample() {
   );
 }
 
-export default OffcanvasExample;
+export default NavHeader;

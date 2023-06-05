@@ -1,0 +1,154 @@
+{
+    "Technical": {
+      "Programming Languages": 
+        [
+        {
+          "name": "C/C++",
+          "proficiency": 5
+        },
+        {
+          "name": "Java",
+          "proficiency": 5
+        },
+        {
+          "name": "Python 3.10",
+          "proficiency": 4
+        },
+        {
+          "name": "Haskell",
+          "proficiency": 3
+        },
+        {
+          "name": "Rust",
+          "proficiency": 2
+        },
+        {
+          "name": "HTML/CSS",
+          "proficiency": 2
+        },
+        {
+          "name": "Javascript",
+          "proficiency": 3
+        },
+        {
+          "name": "Matlab",
+          "proficiency": 2
+        },
+        {
+          "name": "SQL",
+          "proficiency": 4
+        },
+        {
+          "name": "System Verilog",
+          "proficiency": 1
+        }]
+      ,
+      "API, Frameworks and Libraries": [
+        {
+          "name": "Android",
+          "proficiency": 4
+        },
+        {
+          "name": "REST API",
+          "proficiency": 4
+        },
+        {
+          "name": "Flask / Django",
+          "proficiency": 3
+        },
+        {
+          "name": "Spring Boot",
+          "proficiency": 5
+        },
+        {
+          "name": "Tensorflow/Pytorch/Scikit-Learn",
+          "proficiency": 5
+        },
+        {
+          "name": "NumPy",
+          "proficiency": 5
+        },
+        {
+          "name": "Pandas",
+          "proficiency": 4
+        },
+        {
+          "name": "React.JS",
+          "proficiency": 2
+        },
+        {
+          "name": "Google OR-Tools",
+          "proficiency": 4
+        },
+        {
+          "name": "Z3 SMT Solver",
+          "proficiency": 5
+        },
+        {
+          "name": "SageMath",
+          "proficiency": 4
+        }
+    ],
+      "Databases": [
+        {
+          "name": "PostgreSQL",
+          "proficiency": 3
+        },
+        {
+          "name": "Firebase",
+          "proficiency": 3
+        },
+        {
+          "name": "MySQL",
+          "proficiency": 4
+        },
+        {
+          "name": "GraphQL",
+          "proficiency": 4
+        }
+      ],
+      "Others": [
+        {
+          "name": "PostMan API",
+          "proficiency": 4
+        },
+        {
+          "name": "Vim",
+          "proficiency": 5
+        },
+        {
+          "name": "Git",
+          "proficiency": 4
+        },
+        {
+          "name": "Bash",
+          "proficiency": 3
+        },
+        {
+          "name": "Linux/MAC OSX",
+          "proficiency": 5
+        }]
+    } ,
+    "Soft": {
+      "leadership": {
+        "name": "Leadership",
+        "desc": "I was often thrust into leadership positions ever since primary school. I have been the class monitor thrice in school, a Vice President of a CCA and team lead for a software project."
+      },
+      "communication": {
+        "name": "Communication",
+        "desc": "Apart from having experience facilitating team communication, I am also proficient in giving pitches and delivering ideas in a suitable fashion, be it for techical or layman use. I also strive to give constructive feedback to others should the need arises."
+      },
+      "organisation": {
+        "name": "Organisational",
+        "desc": "Being the leader, I chair and facilitate the meetings and check on the progress of everyone around me. I am also usually in charge of distributing work in a fair manner according to my team member's strengths, weaknesses and intended learning outcomes."
+      },
+      "research": {
+        "name": "Research",
+        "desc": "I have and am still currently doing academic research with several top institutions in Singapore like DSO National Laboratories and National University of Singapore. I have also conducted research at the industry level with the Seagate Research Group."
+      },
+      "teaching": {
+        "name" : "Teaching",
+        "desc" : "I have started teaching since O Levels where I tutored students in Mathematics, Chemistry and Physics. I have also conducted tuition for Mathematics whilst balancing my time at University as well."
+      }
+    }
+  }

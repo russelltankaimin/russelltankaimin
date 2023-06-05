@@ -1,5 +1,6 @@
 #description_name {
-    color: rgb(3, 65, 79);
+    /* color: rgb(3, 65, 79); */
+    color: white;
     font-weight: bolder;
     flex-shrink: inherit;
     flex-grow: inherit;

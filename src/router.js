@@ -10,7 +10,9 @@ export const router = (
         <Route path='/' exact element={<Home />} />
         <Route path='/russelltankaimin' exact element={<Home />} />
         <Route path='/skills' element={<Skills />} />
+        <Route path='/russelltankaimin/skills' element={<Skills />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/russelltankaimin/portfolio" element={<Portfolio />} />
         </Routes>
         </>
     );
