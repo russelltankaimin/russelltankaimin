@@ -14,7 +14,10 @@ function NavHeader() {
     <>
     <Navbar key={expand} bg="light" expand={expand} className="mb-3">
       <Container fluid>
-        <Navbar.Brand href='/'>Tan Kai Min, Russell</Navbar.Brand>
+        <Navbar.Brand>
+          <Nav.Link as={Link} to='/russelltankaimin'>Tan Kai Min, Russell 陈界铭 
+          </Nav.Link>
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
@@ -27,7 +30,7 @@ function NavHeader() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link as={Link} to='/'>Home</Nav.Link>
+                  <Nav.Link as={Link} to='/russelltankaimin'>Home</Nav.Link>
                   <Nav.Link as={Link} to='/skills'>Skills</Nav.Link> 
                   <Nav.Link href="#action2">Software/Projects</Nav.Link>
                   <Nav.Link href="#action2">About</Nav.Link>
