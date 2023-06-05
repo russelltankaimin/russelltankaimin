@@ -7,7 +7,7 @@ import { Portfolio } from "./components/pages/profile/Portfolio";
 export const router = (
         <>
         <Routes>
-        <Route path='/' exact element={<Home />} />
+        {/* <Route path='/' exact element={<Home />} /> */}
         <Route path='/russelltankaimin' exact element={<Home />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/russelltankaimin/skills' element={<Skills />} />
