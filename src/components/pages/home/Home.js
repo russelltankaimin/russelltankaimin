@@ -26,7 +26,7 @@ export default function Home() {
     </Helmet>
     <p class='contact'>
       You may find out more about me in 
-      <Link to={'/portfolio'} style={{marginLeft:'13px'}}>About Me</Link> or 
+      <Link to={'/aboutme'} style={{marginLeft:'13px'}}>About Me</Link> or 
       <Link to={'/skills'} style={{marginLeft:'13px'}}>Skills</Link>
     </p>
     <p class='contact'>

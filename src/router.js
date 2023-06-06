@@ -11,8 +11,8 @@ export const router = (
         <Route path='/russelltankaimin' exact element={<Home />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/russelltankaimin/skills' element={<Skills />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/russelltankaimin/portfolio" element={<Portfolio />} />
+        <Route path="/aboutme" element={<Portfolio />} />
+        <Route path="/russelltankaimin/aboutme" element={<Portfolio />} />
         </Routes>
         </>
     );
