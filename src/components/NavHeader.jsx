@@ -12,7 +12,7 @@ function NavHeader() {
 
   return (
     <>
-    <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+    <Navbar key={expand} bg="light" expand={expand} className="mb-3" sticky='top'>
       <Container fluid>
         <Navbar.Brand>
           <Nav.Link as={Link} to='/russelltankaimin'>Tan Kai Min, Russell 陈界铭 

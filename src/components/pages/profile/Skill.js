@@ -3,6 +3,7 @@ import './Skills.css'
 import skills_pic from '../images/skills_section_page_image.png'
 import { SkillsSection } from "./SkillsSection";
 import { PageImage } from "../PageImage";
+import { InterpersonalSkillsSection } from "./InterpersonalSkillsSection";
 
 function Skills() {
   return (
@@ -13,6 +14,9 @@ function Skills() {
         I have also spent time to hone my soft skills as they are very important in being a good team player and it has trained me to be a leader.
         </p>
       <SkillsSection/>
+      <h2 style={{marginLeft: '40px', color: 'white', fontFamily:'monospace'}}>Interpersonal</h2>
+      <hr style={{color:'white'}}></hr>
+      <InterpersonalSkillsSection/>
     </>
   )
 }

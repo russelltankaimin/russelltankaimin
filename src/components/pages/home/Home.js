@@ -5,6 +5,7 @@ import { ImageProfile } from './ImageProfile';
 import { NameTag } from './NameTag';
 import { ContactCard } from './ContactCard';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -25,7 +26,8 @@ export default function Home() {
     </Helmet>
     <p class='contact'>
       You may find out more about me in 
-      <a href='/portfolio' class='link_a'>About Me</a> or <a href='/skills' class='link_a'> Skills</a>. 
+      <Link to={'/portfolio'} style={{marginLeft:'13px'}}>About Me</Link> or 
+      <Link to={'/skills'} style={{marginLeft:'13px'}}>Skills</Link>
     </p>
     <p class='contact'>
     Feel free to peruse my <a href='/blog'>blog</a>. Any opinions stated are solely mine and not necessarily that of the professors, university or even my family and friends.

@@ -14,11 +14,12 @@ export const SkillsSection = () => {
             <Row xs={1} md={2} lg={4} xl={4} xxl={4} className="g-3">
             {skills["Technical"][x].map(
               y => (
-                <TechnicalCard name={y.name} proficiency={y.proficiency} />
+                <TechnicalCard name={y.name} proficiency={y.proficiency} category={y.category}/>
               )
             )}
             </Row>
-            <hr style={{color:'white'}}></hr>
+            {true ? <hr style={{color:'white'}}></hr> : <></>}
+            
           </>
         )
       )

@@ -9,7 +9,7 @@ export const TechnicalCard = (props) => {
         , borderWidth:'10px', fontFamily:'monospace'}}>
             <Card.Body>
             <Card.Title style={{fontWeight:"bold"}}>{props.name}</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Technical</Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted"><em>{props.category}</em></Card.Subtitle>
             <Card.Text>
             Proficiency : {"★".repeat(props.proficiency)}
             </Card.Text>
