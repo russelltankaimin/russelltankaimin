@@ -6,7 +6,7 @@ import { router } from './router';
 function App() {
   return (
     <>
-    <NavHeader />
+    <NavHeader style={{marginBottom : "0px", paddingBottom : '0px'}}/>
     {router}
     </>
   );

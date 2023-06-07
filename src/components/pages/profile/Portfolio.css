@@ -2,6 +2,24 @@
 .main-timeline-2 {
     position: relative;
   }
+
+.nav-tabs .nav-link {
+  color: #784545 !important;
+  border-color: transparent !important;
+  border-width: 5px;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgb(24, 202, 122) !important;
+  border-color: transparent !important;
+}
+
+.nav-tabs .nav-link.disabled {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  color: rgb(88, 87, 87) !important;
+}
+
   
   /* The actual timeline (the vertical ruler) */
   .main-timeline-2::after {
