@@ -38,11 +38,12 @@ function NavHeader() {
                     title="Blog"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                  <NavDropdown.Item href="#action3">
-                    University</NavDropdown.Item>
+                  <NavDropdown.Item>
+                  <Nav.Link as={Link} to='/blog/uni'>University</Nav.Link>
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action4">
-                    Interests
+                  <NavDropdown.Item>
+                  <Nav.Link as={Link} to='/blog/interests'>Interests</Nav.Link>
                   </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
