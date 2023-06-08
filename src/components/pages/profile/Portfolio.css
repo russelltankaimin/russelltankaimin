@@ -4,14 +4,15 @@
   }
 
 .nav-tabs .nav-link {
-  color: #784545 !important;
+  color: black !important;
   border-color: transparent !important;
   border-width: 5px;
 }
 
 .nav-tabs .nav-link.active {
-  background-color: rgb(24, 202, 122) !important;
+  background-color: #d0d0d0 !important;
   border-color: transparent !important;
+  color: "orange" !important;
 }
 
 .nav-tabs .nav-link.disabled {

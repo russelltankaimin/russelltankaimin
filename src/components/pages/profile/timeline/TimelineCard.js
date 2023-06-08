@@ -9,7 +9,7 @@ import '../Portfolio.css';
 export const TimelineCard = (props) => {
     return (
         <div className={`timeline-2 ${props.orientation}-2`}>
-              <MDBCard>
+              <MDBCard style={{borderColor:"orange", borderWidth:"10px"}}>
                 <MDBCardBody className="p-4">
                   <h4 className="fw-bold mb-4">{props.title}</h4>
                   <p className="text-muted mb-4">

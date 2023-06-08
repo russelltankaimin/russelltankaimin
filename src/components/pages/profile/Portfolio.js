@@ -4,6 +4,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { TimelineTree } from "./timeline/TimelineTree";
 import { TabPane } from "react-bootstrap";
+import { MeritSection } from "./merits/MeritSection";
 
 export const Portfolio = () => {
   //let tabs = ["Merits", "Experience"]; // Add more to fill up more! - Russell
@@ -16,10 +17,11 @@ export const Portfolio = () => {
       defaultActiveKey="merits"
       id="left-tabs-example"
       className="mb-3"
-      style={{fontSize : "40px", backgroundColor : "grey", marginTop : '0%', fontFamily:"monospace", fontWeight:"bolder"}}
+      style={{fontSize : "30px", backgroundColor : "grey", marginTop : '0%', fontFamily:"monospace", fontWeight:"bolder"}}
     >
     <Tab eventKey="merits" title="Merits" className="color-white">
-      <h1 style={{color:"white"}}>This is still under construction! -- Russell</h1>
+      {/* <h1 style={{color:"white"}}>This is still under construction! -- Russell</h1> */}
+      <MeritSection />
     </Tab>
     <TabPane eventKey="experience" title="Experience" className="color-white">
       <TimelineTree />
