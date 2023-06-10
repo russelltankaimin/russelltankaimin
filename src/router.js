@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Skills from "./components/pages/profile/Skill";
 import { Portfolio } from "./components/pages/profile/Portfolio";
 import { BlogLandingPage } from "./components/pages/blog/Blog";
+import { CourseReviewPage } from "./components/pages/blog/university/nus_reviews/CourseReview";
 
 export const router = (
         <>
@@ -17,8 +18,8 @@ export const router = (
         <Route path="/aboutme" element={<Portfolio />} />
         <Route path="/russelltankaimin/aboutme" element={<Portfolio />} />
 
-        <Route path="/blog" element={<BlogLandingPage />} />
-        <Route path="/russelltankaimin/blog" element={<BlogLandingPage />} />
+        <Route path="/blog/uni" element={<CourseReviewPage />} />
+        <Route path="/russelltankaimin/blog/uni" element={<CourseReviewPage />} />
 
         </Routes>
         </>
