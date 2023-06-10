@@ -3,7 +3,6 @@ import Home from "./components/pages/home/Home";
 import { Route, Routes } from 'react-router-dom';
 import Skills from "./components/pages/profile/Skill";
 import { Portfolio } from "./components/pages/profile/Portfolio";
-import { BlogLandingPage } from "./components/pages/blog/Blog";
 import { CourseReviewPage } from "./components/pages/blog/university/nus_reviews/CourseReview";
 
 export const router = (

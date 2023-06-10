@@ -1,26 +1,27 @@
 import React from "react";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import Accordion from 'react-bootstrap/Accordion';
+import remarkGfm from 'remark-gfm';
+import { Badge } from "react-bootstrap";
 
 export const CourseReviewCard = (props) => {
+    console.log(props.content)
+    const obj = props.aysem;
     return (
-        <>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-            <button class="accordion-button" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#collapseOne" 
-            aria-expanded="true" 
-            aria-controls="collapseOne">
+        <Accordion.Item eventKey={props.idx} style={{marginBottom:"10px", borderColor:"#3E9F9F", borderWidth:"10px", fontSize:"20px"}}>
+            <Accordion.Header style={{fontWeight:"bolder", fontSize:"30px"}}>
             {props.moduleName}
-            </button>
-            </h2>
-        <div id="collapseOne" 
-        class="accordion-collapse collapse show" 
-        aria-labelledby="headingOne" 
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body">{props.content}</div>
-        </div>
-        </div>
-        </>
+            </Accordion.Header>
+            <Accordion.Body style={{backgroundColor:"#D8D5DB"}}>
+            <Badge bg="warning" text="dark" style={{marginBottom:"10px", fontSize:"15px", wordWrap:"break-word"}}>
+            {obj.slice(0, 23)}
+            </Badge>
+            <br></br>
+            <Badge bg="success" style={{marginBottom:"10px", fontSize:"15px", wordWrap:"break-word"}}>
+            {obj.slice(23)}
+            </Badge>
+            <ReactMarkdown children={props.content} remarkPlugins={[remarkGfm]}></ReactMarkdown>
+            </Accordion.Body>
+        </Accordion.Item>
     );
 }
