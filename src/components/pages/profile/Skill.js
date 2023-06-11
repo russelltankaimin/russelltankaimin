@@ -8,7 +8,7 @@ import { InterpersonalSkillsSection } from "./InterpersonalSkillsSection";
 function Skills() {
   return (
     <>
-        <PageImage source={skills_pic} />
+        <PageImage source={skills_pic} filter={"filter"} />
         <p style={{color:"white", marginLeft: '40px', marginRight:'40px', marginTop:'40px', marginBottom:'70px', fontSize:'30px', fontFamily:"monospace"}}>
         I have been picking up all these skills throughout my schooling and NS days. I am also constantly trying to update my skills each day to adapt to the dynamic nature of the industry.
         I have also spent time to hone my soft skills as they are very important in being a good team player and it has trained me to be a leader.
