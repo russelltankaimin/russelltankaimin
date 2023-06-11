@@ -16,7 +16,7 @@ export default function Home() {
     <br/><br/>
     I am an aspiring computer scientist with a wide variety of interests like Algorithms, Machine Learning and Cryptanalysis, especially in privacy preserving
       technologies. Also, I am always looking out for opportunities to learn new tech and apply them to solve hard problems. I am able to design software, write research
-      code to test hypothesis and apt in solving real world problems. I am also interested in mathematical algorithms which help optimise processes for business processes too.
+      code to test hypothesis and apt in solving real world problems. I am also interested in mathematical algorithms which help optimise workflows and outcomes.
       My career goal is to accelerate integration of research software (like SageMath or SAT Solvers) to modern software as I believe in their potential to help us deliver better and more!
     </p>
     <ContactCard/>
@@ -30,7 +30,7 @@ export default function Home() {
       <Link to={'/skills'} style={{marginLeft:'13px'}}>Skills</Link>
     </p>
     <p className='contact'>
-    Feel free to peruse my <a href='/blog'>blog</a>. Any opinions stated are solely mine and not necessarily that of the professors, university or even my family and friends.
+    Feel free to peruse my <Link to={'/blog'} style={{marginLeft:'13px'}}>Blog</Link>. Any opinions stated are solely mine and not necessarily that of the professors, university or even my family and friends.
     </p>
     </>
   );
