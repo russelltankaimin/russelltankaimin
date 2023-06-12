@@ -3,9 +3,9 @@ import Home from "./components/pages/home/Home";
 import { Route, Routes } from 'react-router-dom';
 import Skills from "./components/pages/profile/Skill";
 import { Portfolio } from "./components/pages/profile/Portfolio";
-import { CourseReviewPage } from "./components/pages/blog/university/nus_reviews/CourseReview";
 import { BlogLandingPage } from "./components/pages/blog/Blog";
 import { TempPage } from "./components/pages/blog/interests/tempPage";
+import { UniversityBlogPage } from "./components/pages/blog/university/UniversityBlogPage";
 
 export const router = (
         <>
@@ -19,8 +19,8 @@ export const router = (
         <Route path="/aboutme" element={<Portfolio />} />
         <Route path="/russelltankaimin/aboutme" element={<Portfolio />} />
 
-        <Route path="/blog/uni" element={<CourseReviewPage />} />
-        <Route path="/russelltankaimin/blog/uni" element={<CourseReviewPage />} />
+        <Route path="/blog/uni" element={<UniversityBlogPage />} />
+        <Route path="/russelltankaimin/blog/uni" element={<UniversityBlogPage />} />
 
         <Route path="/blog/interests" element={<TempPage />} />
         <Route path="/russelltankaimin/blog/interests" element={<TempPage />} />

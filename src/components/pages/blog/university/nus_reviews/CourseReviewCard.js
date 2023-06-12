@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm';
 import { Badge } from "react-bootstrap";
 
 export const CourseReviewCard = (props) => {
-    console.log(props.content)
+    // console.log(props.content)
     const obj = props.aysem;
     return (
         <Accordion.Item eventKey={props.idx} style={{marginBottom:"10px", borderColor:"#3E9F9F", borderWidth:"10px", fontSize:"20px"}}>
