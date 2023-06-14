@@ -1,0 +1,69 @@
+{
+    "Participation History" : [
+        {
+            "name": "CP2106 Independent Software Engineering Project",
+            "year": "2022",
+            "awards":"Artemis (Extreme) Award achieved"
+        },
+        {
+            "name": "NUS Maths Society Problemathic",
+            "year": "2022",
+            "awards": "Semi-finalist"
+        },
+        {
+            "name":"Shopee Code League 2022",
+            "year":"2022",
+            "awards": "3 team solves, contributed to 1 solo solve, 1 joint solve"
+        },
+        {
+            "name":"Codeforces Round 2/3 Division",
+            "year": "2022",
+            "awards": "Highest 4 solves in contest"
+        },
+        {
+            "name": "Top Student (SOC)",
+            "year": "2022",
+            "awards": "IS1103 Ethics in Computing"
+        },
+        {
+            "name": "DSTA Cyber Defender Discover Camp",
+            "year": "2021",
+            "awards": "15 flags"
+        },
+        {
+            "name":"VEX Robotics Championship",
+            "year": "2017",
+            "awards": "Participation, Highest score in VJC"
+        },
+        {
+            "name": "Singapore Mathematical Olympiad",
+            "year": "2013 - 2018",
+            "awards" : "Silver, Bronze, Participation =/"
+        },
+        {
+            "name":"Euclid Mathematics Contest",
+            "year":"2017-2018",
+            "awards":"Distinction"
+        },
+        {
+            "name": "American Mathematics Contest",
+            "year": "2016-2018",
+            "awards": "Merit"
+        },
+        {
+            "name":"GCE O Levels Achievement Award",
+            "year":"2017",
+            "awards": "Academic Achievement Award (6 A1s)"
+        },
+        {
+            "name": "Outstanding Students with Character, Attitude and Responsibility (OSCAR)",
+            "year":"2013 - 2016",
+            "awards":"Most Responsible Student, Most Diligent Student. Awards for all semesters in school."
+        },
+        {
+            "name":"Queen's Commonwealth Essay Competition",
+            "year":"2014",
+            "awards":"Silver - Junior Category"
+        }
+    ]
+}

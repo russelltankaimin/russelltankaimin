@@ -1,0 +1,180 @@
+{
+    "2023-2024" : {
+        "Semester 1" : [
+            {
+                "name" : "Introduction to Operating Systems",
+                "code" : "CS2106",
+                "MC" : 4
+            },
+            {
+                "name" : "Database Systems",
+                "code" : "CS2102",
+                "MC" : 4
+            },
+            {
+                "name" : "Non-Linear Programming",
+                "code" : "MA3236",
+                "MC" : 4
+            },
+            {
+                "name" : "Total Defence Project Against Threat to Community",
+                "code" : "GEN2002",
+                "MC" : 2
+            },
+            {
+                "name" : "Combinatorics and Graphs I",
+                "code" : "MA2214",
+                "MC" : 4
+            },
+            {
+                "name" : "Undergraduate Research Project in Computing",
+                "code" : "CP3209",
+                "MC" : 4
+            }
+        ],
+        "Semester 2" : [
+            {
+                "name" : "Foundations of Machine Learning",
+                "code" : "CS3264",
+                "MC" : 4
+            },
+            {
+                "name" : "Parallel and Concurrent Programming",
+                "code" : "CS3211",
+                "MC" : 4
+            },
+            {
+                "name" : "Quantum Computing",
+                "code" : "CS4268",
+                "MC" : 4
+            },
+            {
+                "name" : "Foundations of Artificial Intelligence",
+                "code" : "CS3263",
+                "MC" : 2
+            },
+            {
+                "name" : "Total Defence Project Against Threat to Community",
+                "code" : "GEN2002",
+                "MC" : 2
+            },
+            {
+                "name" : "Undergraduate Research Project in Computing",
+                "code" : "CP3209",
+                "MC" : 4
+            }
+        ]
+    },
+    "2024-2025" : {
+        "Semester 1" : [
+            {
+                "name" : "Design Thinking",
+                "code" : "DTK1234",
+                "MC" : 4
+            },
+            {
+                "name" : "Optimisation Algorithms",
+                "code" : "CS4234",
+                "MC" : 4
+            },
+            {
+                "name" : "Physics for Life Sciences",
+                "code" : "PC1421",
+                "MC" : 4
+            },
+            {
+                "name" : "Discrete Optimisation",
+                "code" : "MA4254",
+                "MC" : 4
+            },
+            {
+                "name" : "Driving towards the Future: Battery Electric Vehicles",
+                "code" : "HS2904",
+                "MC" : 4
+            }
+        ],
+        "Semester 2" : [
+            {
+                "name" : "Parallel and Distributed Algorithms",
+                "code" : "CS4231",
+                "MC" : 4
+            },
+            {
+                "name" : "Game Theory",
+                "code" : "MA4262",
+                "MC" : 4
+            },
+            {
+                "name" : "How Science Works, Why Science Works",
+                "code" : "HSI1000",
+                "MC" : 4
+            },
+            {
+                "name" : "Introduction to Information Theory",
+                "code" : "CS3236",
+                "MC" : 4
+            },
+            {
+                "name" : "AI Planning and Decision Making",
+                "code" : "CS4246",
+                "MC" : 4
+            }
+        ]
+    },
+    "2025-2026" : {
+        "Semester 1" : [
+            {
+                "name" : "Integrated Honours Thesis",
+                "code" : "XFC4101",
+                "MC" : 6
+            },
+            {
+                "name" : "Algorithm Mechanism Design",
+                "code" : "CS4261",
+                "MC" : 4
+            },
+            {
+                "name" : "New Worlds Beyond Earth",
+                "code" : "HSI2010",
+                "MC" : 4
+            },
+            {
+                "name" : "Numerical Analysis I",
+                "code" : "MA2213",
+                "MC" : 4
+            },
+            {
+                "name" : "Advanced Mathematical Programming",
+                "code" : "MA5243",
+                "MC" : 4
+            }
+        ],
+        "Semester 2" : [
+            {
+                "name" : "Integrated Honours Thesis",
+                "code" : "XFC4101",
+                "MC" : 6
+            },
+            {
+                "name" : "Combinatorics and Graphs II",
+                "code" : "MA3233",
+                "MC" : 4
+            },
+            {
+                "name" : "Knowledge Representation and Reasoning",
+                "code" : "CS4244",
+                "MC" : 4
+            },
+            {
+                "name" : "Saltwater : Society and the Sea",
+                "code" : "HS2906",
+                "MC" : 4
+            },
+            {
+                "name" : "Natural Language Processing",
+                "code" : "CS4248",
+                "MC" : 4
+            }
+        ]
+    }
+}

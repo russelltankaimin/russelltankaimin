@@ -1,0 +1,17 @@
+.contact {
+    font-size: 100%;
+    /* color: rgb(3, 65, 79); */
+    color: white;
+    border-spacing: 12px;
+    margin: 2% 15% 1% 15%;
+    max-width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+a {
+    /* color: rgb(3, 65, 79); */
+    color: white;
+    margin-left: 4px;
+}
