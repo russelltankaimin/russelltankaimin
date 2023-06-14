@@ -4,8 +4,9 @@ import { Route, Routes } from 'react-router-dom';
 import Skills from "./components/pages/profile/Skill";
 import { Portfolio } from "./components/pages/profile/Portfolio";
 import { BlogLandingPage } from "./components/pages/blog/Blog";
-import { TempPage } from "./components/pages/blog/interests/tempPage";
+import { ContentPage } from "./components/pages/blog/interests/landing/BlogLandingPage";
 import { UniversityBlogPage } from "./components/pages/blog/university/UniversityBlogPage";
+import Blog from "./components/pages/blog/interests/landing/Blog";
 
 export const router = (
         <>
@@ -22,11 +23,14 @@ export const router = (
         <Route path="/blog/uni" element={<UniversityBlogPage />} />
         <Route path="/russelltankaimin/blog/uni" element={<UniversityBlogPage />} />
 
-        <Route path="/blog/interests" element={<TempPage />} />
-        <Route path="/russelltankaimin/blog/interests" element={<TempPage />} />
+        <Route path="/blog/interests" element={<ContentPage />} />
+        <Route path="/russelltankaimin/blog/interests" element={<ContentPage />} />
 
         <Route path="/blog/" element={<BlogLandingPage />} />
         <Route path="/russelltankaimin/blog/" element={<BlogLandingPage />} />
+
+        <Route path="/blog/:id" element={<Blog />} />
+        <Route path="russelltankaimin/blog/:id" element={<Blog />} />
         </Routes>
         </>
     );
