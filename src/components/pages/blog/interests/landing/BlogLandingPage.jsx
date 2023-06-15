@@ -1,13 +1,23 @@
 import React, {useState} from "react";
 import SearchBar from "../../../../SearchBar";
 import { blogList } from "../blogposts/backupBlog";
+import { request } from "graphql-request";
+import { useQuery } from "react-query";
 import BlogList from "../blogList/BlogList";
 import EmptyList from "../blogList/EmptyList";
 import { PageImage } from "../../../PageImage";
 import pic from "../blogposts/images/blogpic.png"
+import { BLOG_POST_QUERY } from "../../../../../graphql/blog_queries";
+import { API_LINK } from "../../../../../graphql/query_utils";
 
 
 export const ContentPage = () => {
+
+  let {data, isLoading, isError} = useQuery("data", async () => {
+    const res = await request(API_LINK, BLOG_POST_QUERY);
+    return res;
+  });
+
 
     const [blogs, setBlogs] = useState(blogList);
     const [searchKey, setSearchKey] = useState('');
