@@ -7,7 +7,7 @@ const BlogList = ({ blogs }) => {
     <div className='blogList-wrap'>
       {blogs.map((blog) => (
         <BlogItem blog={blog} />
-      ))}
+      )).reverse()}
     </div>
   );
 };

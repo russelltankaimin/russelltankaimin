@@ -1,7 +1,7 @@
 .blog-wrap {
-    max-width: 700px;
+    max-width: 1200px;
     margin: 0 auto;
-    /* background-color: white; */
+    background-color: rgb(90, 44, 44);
   }
   
   .blog-goBack {

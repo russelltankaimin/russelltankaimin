@@ -5,7 +5,7 @@ import Chip from '../misc/Chip';
 import EmptyList from '../blogList/EmptyList';
 import './Blog.css';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+import { Button, Row } from 'react-bootstrap';
 
 const Blog = () => {
   const { id } = useParams();
@@ -29,14 +29,17 @@ const Blog = () => {
             <p className='blog-date'>Published {blog.createdAt}</p>
             <h1 style={{color:"white"}}>{blog.title}</h1>
             <div className='blog-subCategory'>
+            <Row xs={1} md={4} lg={4} xl={4} xxl={4} className="g-3">
               {blog.subCategory.map((category, i) => (
                 <div key={i} style={{fontSize:"20px"}}>
                   <Chip label={category} type='chip_display'/>
                 </div>
               ))}
+              </Row>
             </div>
           </header>
-          <p className='blog-desc'>{blog.description}</p>
+          {console.log(blog.description)}
+          {blog.description.map(x => <p className='blog-desc'>{x}</p>)}
         </div>
       ) : (
         <EmptyList />
