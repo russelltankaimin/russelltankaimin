@@ -1,7 +1,7 @@
 export const blogListItems = [
     {
       id: 1,
-      title: '7 CSS tools you should be using ',
+      title: 'FUCK U CSS tools you should be using ',
       category: 'development',
       subCategory: ['frontend', 'ui/ux', 'design'],
       description:
