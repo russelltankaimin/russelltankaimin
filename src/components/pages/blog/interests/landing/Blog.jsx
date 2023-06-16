@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { blogListItems } from '../blogposts/backupBlog';
+import { blogListItems } from '../blogposts/blogposts';
 import Chip from '../misc/Chip';
 import EmptyList from '../blogList/EmptyList';
 import './Blog.css';

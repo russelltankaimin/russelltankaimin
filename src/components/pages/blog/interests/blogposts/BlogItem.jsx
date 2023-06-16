@@ -6,9 +6,9 @@ import { Button } from 'react-bootstrap';
 
 const BlogItem = ({
   blog: {
-    content,
-    blogTitle,
-    created_in,
+    description,
+    title,
+    createdAt,
     category,
     id,
   },
@@ -16,11 +16,11 @@ const BlogItem = ({
   return (
     <div className='blogItem-wrap' style={{border: "5px solid  #969696", boxSizing:"border-box"}}>
       <Chip label={category} type='chip_tag'/>
-      <h3 style={{marginLeft:"20px", marginRight:"20px"}}>{blogTitle}</h3>
-      <p className='blogItem-desc'>{content.text}</p>
+      <h3 style={{marginLeft:"20px", marginRight:"20px"}}>{title}</h3>
+      <p className='blogItem-desc'>{description}</p>
       <footer>
         <div>
-          <p style={{marginLeft:"10px"}}>{created_in}</p>
+          <p style={{marginLeft:"10px"}}>{createdAt}</p>
         </div>
         <Link className='blogItem-link' to={`/blog/${id}`}>
           <Button style={{marginRight:"20px", marginLeft:"20px", marginBottom:"20px"}}>Read</Button>
