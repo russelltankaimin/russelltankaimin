@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/russelltankaimin/static/css/main.3340389e.css",
-    "main.js": "/russelltankaimin/static/js/main.4cdaa282.js",
+    "main.js": "/russelltankaimin/static/js/main.30af66ff.js",
     "static/js/787.7d4c0e86.chunk.js": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js",
     "static/media/russellcambridge.jpeg": "/russelltankaimin/static/media/russellcambridge.8403f04ba0be3728f872.jpeg",
     "static/media/nus.png": "/russelltankaimin/static/media/nus.ba81cd7c5c26b06f9305.png",
     "index.html": "/russelltankaimin/index.html",
     "main.3340389e.css.map": "/russelltankaimin/static/css/main.3340389e.css.map",
-    "main.4cdaa282.js.map": "/russelltankaimin/static/js/main.4cdaa282.js.map",
+    "main.30af66ff.js.map": "/russelltankaimin/static/js/main.30af66ff.js.map",
     "787.7d4c0e86.chunk.js.map": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3340389e.css",
-    "static/js/main.4cdaa282.js"
+    "static/js/main.30af66ff.js"
   ]
 }
