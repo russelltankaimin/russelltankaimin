@@ -15,10 +15,12 @@ export const ContentPage = () => {
 
   let {data, isLoading, isError} = useQuery("data", async () => {
     const res = await request(API_LINK, BLOG_POST_QUERY);
+    console.log(res);
     return res;
   });
 
   let blogList = null
+  console.log("data", data)
 
   if (!(isLoading || isError)) {
     blogList = data["blogPosts"];
