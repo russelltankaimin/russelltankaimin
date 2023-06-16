@@ -1,15 +1,15 @@
 import React, {useState} from "react";
 import SearchBar from "../../../../SearchBar";
-import { blogList } from "../blogposts/backupBlog";
 import { request } from "graphql-request";
 import { useQuery } from "react-query";
 import BlogList from "../blogList/BlogList";
 import EmptyList from "../blogList/EmptyList";
+import { Badge } from "react-bootstrap";
 import { PageImage } from "../../../PageImage";
 import pic from "../blogposts/images/blogpic.png"
 import { BLOG_POST_QUERY } from "../../../../../graphql/blog_queries";
-import { API_LINK } from "../../../../../graphql/query_utils";
 
+const API_LINK = "https://ap-southeast-2.cdn.hygraph.com/content/clip6zmzt0rd601upbtfxfwz3/master";
 
 export const ContentPage = () => {
 
@@ -18,43 +18,53 @@ export const ContentPage = () => {
     return res;
   });
 
+  let blogList = null
 
-    const [blogs, setBlogs] = useState(blogList);
-    const [searchKey, setSearchKey] = useState('');
+  if (!(isLoading || isError)) {
+    blogList = data["blogPosts"];
+  }
 
-    const handleSearchBar = (e) => {
-        e.preventDefault();
-        handleSearchResults();
-    };
+  // console.log("BlogList");
+
+  const [blogs, setBlogs] = useState(data["blogPosts"]);
+  const [searchKey, setSearchKey] = useState('');
+
+  const handleSearchBar = (e) => {
+    e.preventDefault();
+    handleSearchResults();
+  };
     
-      // Search for blog by category
-    const handleSearchResults = () => {
-        const allBlogs = blogList;
-        const filteredBlogs = allBlogs.filter((blog) =>
-          blog.category.toLowerCase().includes(searchKey.toLowerCase().trim())
-        );
-        setBlogs(filteredBlogs);
+  // Search for blog by category
+  const handleSearchResults = () => {
+    const allBlogs = blogList;
+    const filteredBlogs = allBlogs.filter((blog) =>
+      blog.category.toLowerCase().includes(searchKey.toLowerCase().trim())
+      );
+      setBlogs(filteredBlogs);
     };
     
       // Clear search and show all blogs
-    const handleClearSearch = () => {
-        setBlogs(blogList);
-        setSearchKey('');
-    };
+  const handleClearSearch = () => {
+    setBlogs(blogList);
+    setSearchKey('');
+  };
 
-    return (
-        <>
-        <PageImage source={pic} />
-        <p style={{color:"white", marginLeft: '40px', marginRight:'40px', marginTop:'40px', marginBottom:'40px', fontSize:'25px', fontFamily:"monospace"}}>
-            This is my blog where I will talk about my interests (mostly but not limited to Computing and Maths related). Note that this page is still under construction obviously...
-        </p>
-        <SearchBar
-        value={searchKey}
-        clearSearch={handleClearSearch}
-        formSubmit={handleSearchBar}
-        handleSearchKey={(e) => setSearchKey(e.target.value)}
-        />
-        {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
+  return (
+    <>
+    {(isError || isLoading) 
+        ? <Badge bg="danger" style={{fontSize : "20px", marginLeft: "30px" }}>GraphQL DB down</Badge> 
+        : <Badge bg="success" style={{fontSize : "20px", marginLeft:"30px" }}>GraphQL DB connected</Badge>}
+    <PageImage source={pic} />
+    <p style={{color:"white", marginLeft: '40px', marginRight:'40px', marginTop:'40px', marginBottom:'40px', fontSize:'25px', fontFamily:"monospace"}}>
+      This is my blog where I will talk about my interests (mostly but not limited to Computing and Maths related). Note that this page is still under construction obviously...
+    </p>
+    <SearchBar
+    value={searchKey}
+    clearSearch={handleClearSearch}
+    formSubmit={handleSearchBar}
+    handleSearchKey={(e) => setSearchKey(e.target.value)} />
+    
+    {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
         </>
     );
 }

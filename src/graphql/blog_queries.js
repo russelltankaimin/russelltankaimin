@@ -10,6 +10,7 @@ export const BLOG_POST_QUERY = gql`
       subcategory
       created_in
       id_number
+      category
     }
   }
 `;

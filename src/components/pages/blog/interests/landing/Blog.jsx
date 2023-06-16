@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { blogList } from '../blogposts/backupBlog';
+import { blogListItems } from '../blogposts/backupBlog';
 import Chip from '../misc/Chip';
 import EmptyList from '../blogList/EmptyList';
 import './Blog.css';
@@ -12,7 +12,7 @@ const Blog = () => {
   const [blog, setBlog] = useState(null);
 
   useEffect(() => {
-    let blog = blogList.find((blog) => blog.id === parseInt(id));
+    let blog = blogListItems.find((blog) => blog.id === parseInt(id));
     if (blog) {
       setBlog(blog);
     }
