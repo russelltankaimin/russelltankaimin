@@ -16,4 +16,6 @@
     border-radius: 5px;
     width: fit-content;
     text-transform: capitalize;
+    margin-left: 10px;
+    margin-right: 10px;
 }

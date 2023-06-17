@@ -14,10 +14,7 @@ export default function Home() {
     <NameTag/>
     <p className='main'>Hi. My name is Tan Kai Min, Russell. People call me Russell. I am a Computer Science and Mathematics student with 7 years of playing around with tech. In my spare time, I watch movies, read comics and read a good mix of mystery, adventure novels and take long hikes.
     <br/><br/>
-    I am an aspiring computer scientist with a wide variety of interests like Algorithms, Machine Learning and Cryptanalysis, especially in privacy preserving
-      technologies. Also, I am always looking out for opportunities to learn new tech and apply them to solve hard problems. I am able to design software, write research
-      code to test hypothesis and apt in solving real world problems. I am also interested in mathematical algorithms which help optimise workflows and outcomes.
-      My career goal is to accelerate integration of research software (like SageMath or SAT Solvers) to modern software as I believe in their potential to help us deliver better and more!
+    I have general interests in Algorithms, A.I and Machine Learning and Cryptography. My future career goal is to research and build applications which are fun, exciting and useful for others, specifically in trying to bring research software into production.
     </p>
     <ContactCard/>
     <Helmet>

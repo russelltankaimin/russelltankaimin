@@ -1,5 +1,5 @@
 import React from "react";
-import blog_image from "../images/icons8-blog-96.png"
+import blog_image from "../images/blogicon.png"
 import { Button } from "react-bootstrap";
 import {ButtonGroup} from "react-bootstrap";
 import { PageImage } from "../PageImage";

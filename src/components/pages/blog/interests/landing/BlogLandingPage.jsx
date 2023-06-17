@@ -4,7 +4,7 @@ import BlogList from "../blogList/BlogList";
 import EmptyList from "../blogList/EmptyList";
 import { blogListItems } from "../blogposts/blogposts";
 import { PageImage } from "../../../PageImage";
-import pic from "../blogposts/images/blogpic.png"
+import pic from "../../../images/interestsicon.png"
 
 export const ContentPage = () => {
 

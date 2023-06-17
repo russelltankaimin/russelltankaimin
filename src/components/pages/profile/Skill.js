@@ -1,6 +1,6 @@
 import React from "react";
 import './Skills.css'
-import skills_pic from '../images/skills_section_page_image.png'
+import skills_pic from '../images/skills.png'
 import { SkillsSection } from "./SkillsSection";
 import { PageImage } from "../PageImage";
 import { InterpersonalSkillsSection } from "./InterpersonalSkillsSection";
