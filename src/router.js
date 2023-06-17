@@ -7,6 +7,7 @@ import { BlogLandingPage } from "./components/pages/blog/Blog";
 import { ContentPage } from "./components/pages/blog/interests/landing/BlogLandingPage";
 import { UniversityBlogPage } from "./components/pages/blog/university/UniversityBlogPage";
 import Blog from "./components/pages/blog/interests/landing/Blog";
+import { SoftwarePage } from "./components/pages/software/SoftwarePage";
 
 export const router = (
         <>
@@ -31,6 +32,9 @@ export const router = (
 
         <Route path="/blog/:id" element={<Blog />} />
         <Route path="russelltankaimin/blog/:id" element={<Blog />} />
+
+        <Route path="/software" element={<SoftwarePage />} />
+        <Route path="russelltankaimin/software" element={<SoftwarePage />} />
         </Routes>
         </>
     );

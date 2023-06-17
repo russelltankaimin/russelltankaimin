@@ -27,10 +27,11 @@ export default function Home() {
     <p className='contact'>
       You may find out more about me in 
       <Link to={'/aboutme'} style={{marginLeft:'13px'}}>About Me</Link> or 
-      <Link to={'/skills'} style={{marginLeft:'13px'}}>Skills</Link>
+      <Link to={'/skills'} style={{marginLeft:'13px'}}>Skills</Link>. 
+      I also spend time to do some <Link to={'/software'} style={{marginLeft:'2px'}}>Software and AI</Link>-related projects.
     </p>
     <p className='contact'>
-    Feel free to peruse my <Link to={'/blog'} style={{marginLeft:'13px'}}>Blog</Link>. Any opinions stated are solely mine and not necessarily that of the professors, university or even my family and friends.
+    Feel free to peruse my <Link to={'/blog'} style={{marginLeft:'2px'}}>Blog</Link>. Any opinions stated are solely mine and not necessarily that of the professors, university or even my family and friends.
     </p>
     </>
   );
