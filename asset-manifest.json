@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/russelltankaimin/static/css/main.5c95ac65.css",
-    "main.js": "/russelltankaimin/static/js/main.5ed05999.js",
+    "main.css": "/russelltankaimin/static/css/main.07f437ab.css",
+    "main.js": "/russelltankaimin/static/js/main.49a58a68.js",
     "static/js/787.7d4c0e86.chunk.js": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js",
     "static/media/russellcambridge.jpeg": "/russelltankaimin/static/media/russellcambridge.8403f04ba0be3728f872.jpeg",
+    "static/media/blogicon.png": "/russelltankaimin/static/media/blogicon.46f91ee9dd60cb094be9.png",
+    "static/media/projects.png": "/russelltankaimin/static/media/projects.df5b7640de365fbad781.png",
+    "static/media/interestsicon.png": "/russelltankaimin/static/media/interestsicon.e3270b62efb313449970.png",
+    "static/media/skills.png": "/russelltankaimin/static/media/skills.d10e4838211a88d9cffe.png",
     "static/media/nus.png": "/russelltankaimin/static/media/nus.ba81cd7c5c26b06f9305.png",
     "index.html": "/russelltankaimin/index.html",
-    "main.5c95ac65.css.map": "/russelltankaimin/static/css/main.5c95ac65.css.map",
-    "main.5ed05999.js.map": "/russelltankaimin/static/js/main.5ed05999.js.map",
+    "main.07f437ab.css.map": "/russelltankaimin/static/css/main.07f437ab.css.map",
+    "main.49a58a68.js.map": "/russelltankaimin/static/js/main.49a58a68.js.map",
     "787.7d4c0e86.chunk.js.map": "/russelltankaimin/static/js/787.7d4c0e86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c95ac65.css",
-    "static/js/main.5ed05999.js"
+    "static/css/main.07f437ab.css",
+    "static/js/main.49a58a68.js"
   ]
 }
