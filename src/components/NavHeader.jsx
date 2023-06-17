@@ -32,7 +32,7 @@ function NavHeader() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link as={Link} to='/russelltankaimin'>Home</Nav.Link>
                   <Nav.Link as={Link} to='/skills'>Skills</Nav.Link> 
-                  <Nav.Link as={Link} to='/projects'>Software/Projects</Nav.Link>
+                  <Nav.Link as={Link} to='/software'>Software/Projects</Nav.Link>
                   <Nav.Link as={Link} to='/aboutme'>About</Nav.Link>
                   <NavDropdown
                     title="Blog"

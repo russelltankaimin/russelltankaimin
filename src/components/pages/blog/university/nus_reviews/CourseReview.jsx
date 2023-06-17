@@ -30,9 +30,9 @@ export const CourseReviewPage = (props) => {
     return (
         <>    
         {(isError || isLoading) 
-        ? <Badge bg="danger" style={{fontSize : "20px", marginLeft: "30px" }}>GraphQL DB down</Badge> 
-        : <Badge bg="success" style={{fontSize : "20px", marginLeft:"30px" }}>GraphQL DB connected</Badge>}
-        <Accordion defaultActiveKey="0" style={{margin : "10px 30px 10px 30px"}}>
+        ? <Badge bg="danger" style={{fontSize : "20px", marginLeft: "50px" }}>GraphQL DB down</Badge> 
+        : <Badge bg="success" style={{fontSize : "20px", marginLeft:"50px" }}>GraphQL DB connected</Badge>}
+        <Accordion defaultActiveKey="0" style={{margin : "10px 50px 10px 50px"}}>
         {data["courseReviews"].map((x, index) => <CourseReviewCard moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]}/>)}
         </Accordion>
         </>

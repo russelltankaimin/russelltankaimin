@@ -31,9 +31,7 @@ const Blog = () => {
             <div className='blog-subCategory'>
             <Row xs={1} md={4} lg={4} xl={4} xxl={4} className="g-3">
               {blog.subCategory.map((category, i) => (
-                <div key={i} style={{fontSize:"20px"}}>
                   <Chip label={category} type='chip_display'/>
-                </div>
               ))}
               </Row>
             </div>
