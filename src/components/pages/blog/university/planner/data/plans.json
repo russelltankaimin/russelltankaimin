@@ -22,8 +22,13 @@
                 "MC" : 2
             },
             {
-                "name" : "Combinatorics and Graphs I",
-                "code" : "MA2214",
+                "name" : "How Science Works, Why Science Works",
+                "code" : "HSI1000",
+                "MC" : 4
+            },
+            {
+                "name" : "The Human Condition",
+                "code" : "HSH1000",
                 "MC" : 4
             },
             {
@@ -44,15 +49,11 @@
                 "MC" : 4
             },
             {
-                "name" : "Quantum Computing",
-                "code" : "CS4268",
+                "name" : "Game Theory",
+                "code" : "MA4262",
                 "MC" : 4
             },
-            {
-                "name" : "Foundations of Artificial Intelligence",
-                "code" : "CS3263",
-                "MC" : 2
-            },
+            
             {
                 "name" : "Total Defence Project Against Threat to Community",
                 "code" : "GEN2002",
@@ -62,14 +63,18 @@
                 "name" : "Undergraduate Research Project in Computing",
                 "code" : "CP3209",
                 "MC" : 4
+            },{
+                "name" : "What is a Planet?",
+                "code" : "HSI2009",
+                "MC" : 4
             }
         ]
     },
     "2024-2025" : {
         "Semester 1" : [
             {
-                "name" : "Design Thinking",
-                "code" : "DTK1234",
+                "name" : "Theory of Computation",
+                "code" : "CS3231",
                 "MC" : 4
             },
             {
@@ -77,9 +82,15 @@
                 "code" : "CS4234",
                 "MC" : 4
             },
+            
             {
-                "name" : "Physics for Life Sciences",
-                "code" : "PC1421",
+                "name" : "Set Theory",
+                "code" : "MA3205",
+                "MC" : 4
+            },
+            {
+                "name" : "Fundamentals of Physics",
+                "code" : "PC1201",
                 "MC" : 4
             },
             {
@@ -88,35 +99,40 @@
                 "MC" : 4
             },
             {
-                "name" : "Driving towards the Future: Battery Electric Vehicles",
-                "code" : "HS2904",
+                "name" : "Earth and Beyond",
+                "code" : "HS2907",
                 "MC" : 4
             }
         ],
         "Semester 2" : [
+            {
+                "name" : "Foundations of Artificial Intelligence",
+                "code" : "CS3263",
+                "MC" : 4
+            },
+            {
+                "name" : "Design Thinking",
+                "code" : "DTK1234",
+                "MC" : 4
+            },
             {
                 "name" : "Parallel and Distributed Algorithms",
                 "code" : "CS4231",
                 "MC" : 4
             },
             {
-                "name" : "Game Theory",
-                "code" : "MA4262",
+                "name" : "Quantum Computing",
+                "code" : "CS4268",
                 "MC" : 4
             },
             {
-                "name" : "How Science Works, Why Science Works",
-                "code" : "HSI1000",
-                "MC" : 4
+                "name" : "Algebra I (S)",
+                "code" : "MA2202S",
+                "MC" : "4/5"
             },
             {
                 "name" : "Introduction to Information Theory",
                 "code" : "CS3236",
-                "MC" : 4
-            },
-            {
-                "name" : "AI Planning and Decision Making",
-                "code" : "CS4246",
                 "MC" : 4
             }
         ]
@@ -134,13 +150,13 @@
                 "MC" : 4
             },
             {
-                "name" : "New Worlds Beyond Earth",
-                "code" : "HSI2010",
+                "name" : "The Rise and Fall and and Rise of China",
+                "code" : "HS2909",
                 "MC" : 4
             },
             {
-                "name" : "Numerical Analysis I",
-                "code" : "MA2213",
+                "name" : "Algebra II",
+                "code" : "MA3201",
                 "MC" : 4
             },
             {
@@ -156,13 +172,8 @@
                 "MC" : 6
             },
             {
-                "name" : "Combinatorics and Graphs II",
-                "code" : "MA3233",
-                "MC" : 4
-            },
-            {
-                "name" : "Knowledge Representation and Reasoning",
-                "code" : "CS4244",
+                "name" : "AI Planning and Decision Making",
+                "code" : "CS4246",
                 "MC" : 4
             },
             {
@@ -173,6 +184,16 @@
             {
                 "name" : "Natural Language Processing",
                 "code" : "CS4248",
+                "MC" : 4
+            }, 
+            {
+                "name" : "Numerical Analysis I",
+                "code" : "MA2213",
+                "MC" : 4
+            },
+            {
+                "name" : "Stochastic Operations Research",
+                "code" : "MA4260",
                 "MC" : 4
             }
         ]

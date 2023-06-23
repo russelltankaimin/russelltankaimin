@@ -1,6 +1,16 @@
 {
     "in_progress":[
         {
+            "title":"dr-dooal",
+            "description" : "Linear Simplex Solver in Rust",
+            "main" : "After learning about the simplex algorithm, I thought I could also use this to improve my Rusty Rust skills. The solver should be able to give the full set of solutions, i.e Unique Solution, Convex Hull, Optimal Set, No Solution.",
+            "status" : "Pending",
+            "links":{
+                "Project Link":"https://github.com/russell-project-org/dr-dooal"
+            },
+            "category":["Rust", "Optimisation", "Linear Program"]
+        },
+        {
             "title": "russell-site",
             "description" : "Java Spring Boot Backend for main website.",
             "main" : "Intended to be used to contain widgets for my website. It is built using the MVC framework. It is quite an unconventional backend for a React website but I want to experiment on it.",
