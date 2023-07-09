@@ -82,15 +82,14 @@
                 "code" : "CS4234",
                 "MC" : 4
             },
-            
             {
-                "name" : "Set Theory",
-                "code" : "MA3205",
+                "name" : "Foundations of Artificial Intelligence",
+                "code" : "CS3263",
                 "MC" : 4
             },
             {
-                "name" : "Fundamentals of Physics",
-                "code" : "PC1201",
+                "name" : "Set Theory",
+                "code" : "MA3205",
                 "MC" : 4
             },
             {
@@ -106,8 +105,8 @@
         ],
         "Semester 2" : [
             {
-                "name" : "Foundations of Artificial Intelligence",
-                "code" : "CS3263",
+                "name" : "Fundamentals of Physics",
+                "code" : "PC1201",
                 "MC" : 4
             },
             {
@@ -124,15 +123,10 @@
                 "name" : "Quantum Computing",
                 "code" : "CS4268",
                 "MC" : 4
-            },
+            }, 
             {
-                "name" : "Algebra I (S)",
-                "code" : "MA2202S",
-                "MC" : "4/5"
-            },
-            {
-                "name" : "Introduction to Information Theory",
-                "code" : "CS3236",
+                "name" : "Mathematical Logic",
+                "code" : "MA4207",
                 "MC" : 4
             }
         ]
@@ -145,23 +139,23 @@
                 "MC" : 6
             },
             {
+                "name" : "AI Planning and Decision Making",
+                "code" : "CS4246",
+                "MC" : 4
+            },
+            {
                 "name" : "Algorithm Mechanism Design",
                 "code" : "CS4261",
                 "MC" : 4
             },
             {
-                "name" : "The Rise and Fall and and Rise of China",
-                "code" : "HS2909",
-                "MC" : 4
-            },
-            {
-                "name" : "Algebra II",
-                "code" : "MA3201",
-                "MC" : 4
-            },
-            {
                 "name" : "Advanced Mathematical Programming",
                 "code" : "MA5243",
+                "MC" : 4
+            },
+            {
+                "name" : "Stochastic Processes and Algorithms",
+                "code" : "MA5249",
                 "MC" : 4
             }
         ],
@@ -171,11 +165,7 @@
                 "code" : "XFC4101",
                 "MC" : 6
             },
-            {
-                "name" : "AI Planning and Decision Making",
-                "code" : "CS4246",
-                "MC" : 4
-            },
+            
             {
                 "name" : "Saltwater : Society and the Sea",
                 "code" : "HS2906",
@@ -187,14 +177,19 @@
                 "MC" : 4
             }, 
             {
-                "name" : "Numerical Analysis I",
-                "code" : "MA2213",
+                "name" : "Introduction to Information Theory",
+                "code" : "CS3236",
                 "MC" : 4
+            },
+            {
+                "name" : "Algebra I (S)",
+                "code" : "MA2202S",
+                "MC" : "4/5"
             },
             {
                 "name" : "Stochastic Operations Research",
                 "code" : "MA4260",
-                "MC" : 4
+                "MC" : "4"
             }
         ]
     }

@@ -1,0 +1,39 @@
+{
+    "Computer Science" : [
+        {
+            "name" : "SQL, Databases and Relational Theory",
+            "description" : "It is a very classical and essential Database programming language which can be quite useful in Software Engineering. However, given my study plan, I simply do not have the capacity to input this inside. I will have to self-learn this over the vacation or what is left of weekends after work. I think relational theory is very interesting and I believe it can indeed help me in reason about certain databases as well. Moreover, I think database normalisation is also very important and I want to learn how to properly design robust databases with this knowledge."
+        },
+        {
+            "name" : "Scalable systems",
+            "description": "I also want to play a part in contributing to large scale software where big data is involved. I plan to read up on 'Designing Data-Intensive Applications' by Martin Klepmann over the coming vacation and hopefully do some projects on it."
+        },
+        {
+            "name" : "Go",
+            "description" : "I heard Go is good for concurrency. I am just planning to learn how to use it and maybe just potentially even automate my household appliances with it, since my dad recently bought a smart bulb."
+        },
+        {
+            "name" : "Advanced Rust",
+            "description" : "I already know quite a bit of Rust, and currently doing my own Rust project on it. I am looking to read and practice 'Rust for Rustaceans' over the coming semester. I also would like to hereby declare my abandonement of C++ altogether."
+        }
+    ],
+    "Mathematics" : [
+        {
+            "name" : "Algebra",
+            "description" : "Probably a hard class to even take in the coming semesters, unfortunately. Due to it being a super essential class in Mathematics, but only offered in 1 semester. How inconvenient. My plan is to read up Dummit and Foote and also Graduate Algebra Chapter 0. I think this is essential for any cryptography work in the future as well. Understanding is really key."
+        },{
+            "name" : "Galois Theory",
+            "description" : "Just for interest."
+        },
+        {
+            "name" : "Elliptic Curves",
+            "description": "Very essential in understanding Cryptography. I tried to learn how the SIKE was broken by random walks along the Elliptic Curve Endomorphism Rings but I could not follow. I really need to read up on them. The math department at NUS has not been offering certain courses for very long and hence I need to find a way, even if it means learning it all by myself."
+        }
+    ],
+    "Life skills" : [
+        {
+            "name" : "Cooking",
+            "description": "Essential life skill more important than cycling."
+        }
+    ]
+}
