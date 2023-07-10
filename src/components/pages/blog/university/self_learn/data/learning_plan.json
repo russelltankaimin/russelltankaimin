@@ -1,7 +1,7 @@
 {
     "Computer Science" : [
         {
-            "name" : "SQL, Databases and Relational Theory",
+            "name" : "SQL, Databases and Relational Theory (In place of CS2102: Database Systems)",
             "description" : "It is a very classical and essential Database programming language which can be quite useful in Software Engineering. However, given my study plan, I simply do not have the capacity to input this inside. I will have to self-learn this over the vacation or what is left of weekends after work. I think relational theory is very interesting and I believe it can indeed help me in reason about certain databases as well. Moreover, I think database normalisation is also very important and I want to learn how to properly design robust databases with this knowledge."
         },
         {
@@ -19,10 +19,10 @@
     ],
     "Mathematics" : [
         {
-            "name" : "Algebra",
+            "name" : "Algebra (In place of MA2202, MA3201 Algebra I and II)",
             "description" : "Probably a hard class to even take in the coming semesters, unfortunately. Due to it being a super essential class in Mathematics, but only offered in 1 semester. How inconvenient. My plan is to read up Dummit and Foote and also Graduate Algebra Chapter 0. I think this is essential for any cryptography work in the future as well. Understanding is really key."
         },{
-            "name" : "Galois Theory",
+            "name" : "Galois Theory (In place of MA4203)",
             "description" : "Just for interest."
         },
         {

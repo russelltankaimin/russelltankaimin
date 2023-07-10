@@ -12,7 +12,7 @@ import { SoftwarePage } from "./components/pages/software/SoftwarePage";
 export const router = (
         <>
         <Routes>
-        {/* <Route path='/' exact element={<Home />} /> */}
+        <Route path='/' exact element={<Home />} />
         <Route path='/russelltankaimin' exact element={<Home />} />
 
         <Route path='/skills' element={<Skills />} />
