@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 function NavHeader() {
 
-  const expand = false
+  const expand = false;
 
   return (
     <>
@@ -22,7 +22,7 @@ function NavHeader() {
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-            placement="end">
+            placement="end" scroll="true">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                 Contents
@@ -31,9 +31,8 @@ function NavHeader() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link as={Link} to='/'>Home</Nav.Link>
-                  <Nav.Link as={Link} to='/skills'>Skills</Nav.Link> 
-                  <Nav.Link as={Link} to='/software'>Software/Projects</Nav.Link>
                   <Nav.Link as={Link} to='/aboutme'>About</Nav.Link>
+                  <Nav.Link as={Link} to='/skills'>Skills</Nav.Link> 
                   <NavDropdown
                     title="Blog"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
@@ -46,6 +45,7 @@ function NavHeader() {
                   <Nav.Link as={Link} to='/blog/interests'>Interests</Nav.Link>
                   </NavDropdown.Item>
                   </NavDropdown>
+                  <Nav.Link as={Link} to='/software'>Software/Projects</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
