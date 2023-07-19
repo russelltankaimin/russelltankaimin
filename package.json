@@ -1,7 +1,7 @@
 {
   "name": "russelltankaimin",
   "version": "0.1.0",
-  "homepage": "https://russelltankaimin.github.io/russelltankaimin",
+  "homepage": "https://russelltankm.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -33,7 +33,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d react-version -d build",
+    "deploy": "netlify deploy",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -57,6 +57,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "netlify-cli": "^15.9.0"
   }
 }

@@ -4,7 +4,6 @@ import { BLOG_REVIEW_QUERY } from "../../../../../graphql/module_queries";
 import { useQuery } from "react-query";
 import backupData from './backup_data/courses.json'
 import { CourseReviewCard } from "./CourseReviewCard";
-import Accordion from 'react-bootstrap/Accordion';
 import { Badge } from "react-bootstrap";
 
 const API_LINK = "https://ap-southeast-2.cdn.hygraph.com/content/clip6zmzt0rd601upbtfxfwz3/master";
@@ -32,9 +31,7 @@ export const CourseReviewPage = (props) => {
         {(isError || isLoading) 
         ? <Badge bg="danger" style={{fontSize : "20px", marginLeft: "50px" }}>GraphQL DB down</Badge> 
         : <Badge bg="success" style={{fontSize : "20px", marginLeft:"50px" }}>GraphQL DB connected</Badge>}
-        <Accordion defaultActiveKey="0" style={{margin : "10px 50px 10px 50px"}}>
         {data["courseReviews"].map((x, index) => <CourseReviewCard moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]}/>)}
-        </Accordion>
         </>
     );
     // return <h1 style={{color:"white"}}>HIII</h1>
