@@ -19,7 +19,7 @@ export default function Home() {
     <ContactCard/>
     <Helmet>
       <title>Tan Kai Min, Russell</title>
-      <meta name='description' content='Hi. My name is Tan Kai Min, Russell. People call me Russell. I am a Computer Science and Mathematics student with 7 years of playing around with tech. In my spare time, I watch movies, read comics and read a good mix of mystery, adventure novels'/>
+      <meta name='description' content='Hi. My name is Tan Kai Min, Russell. People call me Russell. I am a Computer Science and Mathematics student with 7 years of playing around with tech. In my spare time, I watch movies, read comics and a good mix of mystery, adventure novels'/>
     </Helmet>
     <p className='contact'>
       You may find out more about me in 

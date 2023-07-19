@@ -22,7 +22,7 @@ function NavHeader() {
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-            placement="end" scroll="true">
+            placement="end" scroll="true" style={{width:"auto"}}>
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                 Contents
