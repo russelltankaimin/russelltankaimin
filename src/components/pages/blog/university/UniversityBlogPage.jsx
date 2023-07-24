@@ -1,7 +1,7 @@
 import React, {useState } from "react";
 import nus_pic from '../../images/nus.png'
 import { PageImage } from "../../../pages/PageImage"
-import { Tabs, Tab, TabPane } from "react-bootstrap";
+import { Tabs, Tab } from "react-bootstrap";
 import { CourseReviewPage } from "./nus_reviews/CourseReview";
 import { PlannerPage } from "./planner/PlannerPage";
 import {LearningPage} from "./self_learn/LearningPage";
