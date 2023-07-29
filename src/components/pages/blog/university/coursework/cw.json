@@ -1,0 +1,45 @@
+{
+    "AY 2021/2022 Semester 1" : [
+        {"code": "CS1101S", "name" : "Programming Methodology I"},
+        {"code": "CS1231S", "name" : "Discrete Structures"},
+        {"code": "MA1521", "name" : "Calculus in Computing"},
+        {"code": "MA2001", "name" : "Linear Algebra I"},
+        {"code": "GEC1030", "name" : "Metropolis: A City in World History"}
+    ],
+    "AY 2021/2022 Semester 2" : [
+        {"code": "CS2030S", "name" : "Programming Methodology II"},
+        {"code": "CS2040S", "name" : "Data Structures and Algorithms"},
+        {"code": "GEA1000", "name" : "Quantitative Reasoning with Real-World Data"},
+        {"code": "ST2334", "name" : "Probability and Statistics"},
+        {"code": "IS1103", "name" : "Ethics In Computing"},
+        {"code": "GESS1027", "name" : "La Kopi: Forging of the Singaporean Chinese Community"},
+        {"code" : "CS1010R", "name" : "Programming Methodology I"}
+    ],
+    "AY 2021/2022 Summer" : [
+        {"code": "CP2106", "name" : "Independent Software Engineering Project (Orbital)"}
+    ],
+    "AY 2022/2023 Semester 1" : [
+        {"code": "MA2101", "name" : "Linear Algebra II"},
+        {"code": "MA2108", "name" : "Mathematical Analysis I"},
+        {"code": "ES2660", "name" : "Communication in the Information Age"},
+        {"code": "CS2100", "name" : "Computer Organisation"},
+        {"code": "CS3230", "name" : "Design and Analysis of Algorithms"},
+        {"code": "CFG1002", "name" : "Career Catalyst"}
+    ],
+    "AY 2022/2023 Semester 2" : [
+        {"code": "CS2101", "name" : "Effective Communication for Computing Professionals"},
+        {"code": "CS2103T", "name" : "Software Engineering"},
+        {"code": "MA2104", "name" : "Multivariable Calculus"},
+        {"code": "CS2109S", "name" : "Introduction to A.I and Machine Learning"},
+        {"code": "MA3252", "name" : "Linear Network and Optimisation"}
+    ],
+    "AY 2023/2024 Semester 1" : [
+        {"code": "CP3209", "name" : "Undergraduate Research Project in Computing"},
+        {"code": "CS2106", "name" : "Introduction to Operating Systems"},
+        {"code": "MA3236", "name" : "Non Linear Programming"},
+        {"code": "HSH1000", "name" : "The Human Condition"},
+        {"code": "HSI1000", "name" : "How Science Works, Why Science Works"},
+        {"code": "GEN2002X", "name" : "Total Defence Project Against Threat to Community"}
+    ]
+
+}
