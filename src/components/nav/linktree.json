@@ -1,0 +1,33 @@
+{
+    "main" : [
+        {
+            "name" : "Home",
+            "link" : "/",
+            "sub" : []
+        }, 
+        {
+            "name" : "About",
+            "link" : "/aboutme",
+            "sub" : [
+                {"Merits" : "/aboutme/merits"},
+                {"Experiences" : "/aboutme/experiences"},
+                {"Coursework" : "/aboutme/coursework"},
+                {"NUS Planner" : "/aboutme/studyplan"},
+                {"Learning" : "/aboutme/learning"}
+            ]
+        },
+        {
+            "name" : "Blog",
+            "link" : "/blog",
+            "sub" : [
+                {"Course Reviews" : "/blog/uni"},
+                {"Interests" : "/blog/interests"}
+            ]
+        },
+        {
+            "name" : "Software/Projects",
+            "link" : "/software",
+            "sub" : []
+        }
+    ]
+}

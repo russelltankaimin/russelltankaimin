@@ -21,6 +21,12 @@ export const router = (
         <Route path="/aboutme" element={<Portfolio />} />
         {/* <Route path="/russelltankaimin/aboutme" element={<Portfolio />} /> */}
 
+        <Route path="/aboutme/merits" element={<Portfolio />} />
+        <Route path="/aboutme/experiences" element={<Portfolio />} />
+        <Route path="/aboutme/coursework" element={<Portfolio />} />
+        <Route path="/aboutme/studyplan" element={<Portfolio />} />
+        <Route path="/aboutme/learning" element={<Portfolio />} />
+
         <Route path="/blog/uni" element={<UniversityBlogPage />} />
         {/* <Route path="/russelltankaimin/blog/uni" element={<UniversityBlogPage />} /> */}
 
