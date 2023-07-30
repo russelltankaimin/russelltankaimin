@@ -12,6 +12,10 @@ const links = [
         "name": 'Merits'
     },
     {
+        "link":'/aboutme/skills',
+        "name": 'Skills'
+    },
+    {
         "link":'/aboutme/experiences',
         "name": 'Experiences'
     },

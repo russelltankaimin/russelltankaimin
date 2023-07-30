@@ -9,6 +9,7 @@
             "name" : "About",
             "link" : "/aboutme",
             "sub" : [
+                {"Skills" : "/aboutme/skills"},
                 {"Merits" : "/aboutme/merits"},
                 {"Experiences" : "/aboutme/experiences"},
                 {"Coursework" : "/aboutme/coursework"},
