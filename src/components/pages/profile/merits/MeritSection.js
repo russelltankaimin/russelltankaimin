@@ -13,7 +13,7 @@ export const MeritSection = () => {
     const isSmallScreen = useMediaQuery({maxWidth: 576});
     return (
         <>
-            <PageImage source={picture}></PageImage>
+            <PageImage source={picture} />
             <h1 className="merits-header"><u>My Achievements</u></h1>
             <p className="merits-intro">
                 Below are a few of my selected involvements and achievements over the years. I have a lot of awards on my
