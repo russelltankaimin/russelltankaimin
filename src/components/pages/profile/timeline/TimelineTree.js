@@ -1,23 +1,40 @@
 import React from "react";
-import { MDBContainer } from "mdb-react-ui-kit";
-import '../Portfolio.css'
+import './TimelineTree.css';
+import picture from './img/experience.png'
 import dataDict from './timeline.json';
-import { TimelineCard } from "./TimelineCard";
+import { PageImage } from "../../PageImage";
+import { Chrono } from "react-chrono";
+import { useMediaQuery } from "react-responsive";
+import { BackButton } from "../../../backbutton/BackButton";
 
 export const TimelineTree = () => {
     let data = dataDict["Timeline"];
+    const isSmallScreen = useMediaQuery({maxWidth: 576});
     return (
-        <MDBContainer fluid className="py-5" style={{ backgroundColor: "rgb(236, 235, 205)" }}>
-        <div className="main-timeline-2">
-        {
-            data.map((x, index) => <TimelineCard 
-            orientation={index % 2 === 0 ? 'left' : 'right'} 
-            title={x.title} 
-            period={x.period}
-            content={x.content}
-            />)
-        }
+        <>
+        <PageImage source={picture} />
+        <h1 className="exp_header"><u>The Trodden Road</u></h1>
+        <p className="exp_intro">
+            I have been studying in Singapore and have gone through the full 10 years of compulsory Singapore education
+            and have gained and grown so much over the years. I have also been actively trying to find opportunities to 
+            apply my skills in university and various internships. I hope to gain experience in both
+            software engineering and research as well.
+        </p>
+        <div className="exp_tree">
+        <Chrono
+            items={data}
+            mode="VERTICAL_ALTERNATING"
+            itemWidth={15}
+            fontSizes={{
+                cardSubtitle: '0.85rem',
+                cardText: '20px',
+                cardTitle: '25px',
+                title: '1rem',}}
+            timelinePointDimension={isSmallScreen ? 5 : 50}
+            
+        />
         </div>
-        </MDBContainer>
+        <BackButton description={"Back to About Me Page"} redirect_link={'/aboutme'} />
+        </>
   );
 }

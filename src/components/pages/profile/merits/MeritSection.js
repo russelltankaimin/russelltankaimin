@@ -1,12 +1,12 @@
 import React from "react";
 import dataDict from './merits.json';
 import { MeritsCard } from "./MeritsCard";
-import { Row, Card, Nav, CardGroup } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import {PageImage} from "../../PageImage.js"
 import picture from "./img/awards.png"
 import './MeritsSection.css'
 import { useMediaQuery } from "react-responsive";
-import { Link } from "react-router-dom";
+import { BackButton } from "../../../backbutton/BackButton";
 
 export const MeritSection = () => {
     let data = dataDict["Participation History"];
@@ -28,15 +28,7 @@ export const MeritSection = () => {
             <MeritsCard name={x.name} years={x.year} awards={x.awards}/>)}
             
             </Row>
-            <CardGroup style={ !isSmallScreen ? {margin:"2% 10% 2% 15%"} : {margin:"1% 10% 10% 10%"}}>
-            <Card className="redirector">
-            <Card.Body>
-            <Card.Title>
-            <Nav.Link as={Link} to={"/aboutme"}>Back to About Me Page</Nav.Link>
-            </Card.Title>
-            </Card.Body>
-            </Card>
-            </CardGroup>
+            <BackButton description={"Back to About Me Page"} redirect_link={'/aboutme'} />
         </>
     );
 }

@@ -15,7 +15,7 @@ const links = [
   },
   {
       "link":'/blog/',
-      "name": 'Experiences'
+      "name": 'Blog'
   },
   {
       "link":'/software',
