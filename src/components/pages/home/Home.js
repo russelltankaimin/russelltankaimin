@@ -4,7 +4,7 @@ import './Home.css'
 import { ImageProfile } from './ImageProfile';
 import { NameTag } from './NameTag';
 import { Helmet } from 'react-helmet';
-import { ContactMe } from './ContactMe';
+import { ContactMe } from './contact/ContactMe';
 
 export default function Home() {
   return (
