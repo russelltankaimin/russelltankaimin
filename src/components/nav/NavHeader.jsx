@@ -13,16 +13,16 @@ function NavHeader() {
 
   return (
     <>
-    <Navbar key={expand} bg="light" expand={expand} className="mb-3" sticky='top'>
+    <Navbar key={expand} bg="white" expand={expand} className="mb-3" sticky='top'>
       <Container fluid>
         <Navbar.Brand>
           <Nav.Link as={Link} to='/'>Tan Kai Min, Russell 陈界铭 
           </Nav.Link>
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+        <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${true}`}/>
         <Navbar.Offcanvas
           id={`offcanvasNavbar-expand-${expand}`}
-            aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+            aria-labelledby={`offcanvasNavbarLabel-collapse-${expand}`}
             placement="end" scroll="true" style={{width:"auto"}}>
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
