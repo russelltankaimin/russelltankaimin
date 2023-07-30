@@ -8,6 +8,9 @@ import { ContentPage } from "./components/pages/blog/interests/landing/BlogLandi
 import { UniversityBlogPage } from "./components/pages/blog/university/UniversityBlogPage";
 import Blog from "./components/pages/blog/interests/landing/Blog";
 import { SoftwarePage } from "./components/pages/software/SoftwarePage";
+import { Introduction } from "./components/pages/profile/aboutme/Introduction";
+import { MeritSection } from "./components/pages/profile/merits/MeritSection";
+import { TimelineTree } from "./components/pages/profile/timeline/TimelineTree";
 
 export const router = (
         <>
@@ -18,11 +21,11 @@ export const router = (
         <Route path='/skills' element={<Skills />} />
         {/* <Route path='/russelltankaimin/skills' element={<Skills />} /> */}
 
-        <Route path="/aboutme" element={<Portfolio />} />
+        <Route path="/aboutme" element={<Introduction />} />
         {/* <Route path="/russelltankaimin/aboutme" element={<Portfolio />} /> */}
 
-        <Route path="/aboutme/merits" element={<Portfolio />} />
-        <Route path="/aboutme/experiences" element={<Portfolio />} />
+        <Route path="/aboutme/merits" element={<MeritSection />} />
+        <Route path="/aboutme/experiences" element={<TimelineTree />} />
         <Route path="/aboutme/coursework" element={<Portfolio />} />
         <Route path="/aboutme/studyplan" element={<Portfolio />} />
         <Route path="/aboutme/learning" element={<Portfolio />} />

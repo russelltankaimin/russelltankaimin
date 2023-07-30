@@ -5,6 +5,24 @@ import { ImageProfile } from './ImageProfile';
 import { NameTag } from './NameTag';
 import { Helmet } from 'react-helmet';
 import { ContactMe } from './contact/ContactMe';
+import { CardGroup, Card, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+const links = [
+  {
+      "link":'/aboutme/',
+      "name": 'About Me'
+  },
+  {
+      "link":'/blog/',
+      "name": 'Experiences'
+  },
+  {
+      "link":'/software',
+      "name": 'Projects'
+  }
+
+];
 
 export default function Home() {
   return (
@@ -20,6 +38,21 @@ export default function Home() {
       <link rel="canonical" href='/'/>
       <meta name='description' content='Hi. My name is Tan Kai Min, Russell from Singapore. I am a Computer Science and Mathematics Double Degree Programme (DDP) student at the National University of Singapore (NUS) with 7 years of playing around with tech.'/>
     </Helmet>
+    <h2 className="contact_header"><u>Links In This Site</u></h2>
+    <center style={{marginTop : "20px"}}>
+    <CardGroup style={{margin:"2% 15% 2% 15%"}}>
+        {links.map((bulk, index) => 
+        <div >
+        <Card className="redirector">
+        <Card.Body>
+            <Card.Title>
+            <Nav.Link as={Link} to={bulk["link"]}>{bulk["name"]}</Nav.Link>
+            </Card.Title>
+            </Card.Body>
+        </Card>
+        </div>)}
+    </CardGroup>
+    </center>
     <ContactMe />
     </>
   );

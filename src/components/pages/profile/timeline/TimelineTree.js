@@ -7,7 +7,7 @@ import { TimelineCard } from "./TimelineCard";
 export const TimelineTree = () => {
     let data = dataDict["Timeline"];
     return (
-        <MDBContainer fluid className="py-5" style={{ backgroundColor: "rgb(55, 53, 53)" }}>
+        <MDBContainer fluid className="py-5" style={{ backgroundColor: "rgb(236, 235, 205)" }}>
         <div className="main-timeline-2">
         {
             data.map((x, index) => <TimelineCard 
