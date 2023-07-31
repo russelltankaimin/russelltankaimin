@@ -44,16 +44,15 @@
                 "MC" : 4
             },
             {
-                "name" : "Parallel and Concurrent Programming",
-                "code" : "CS3211",
-                "MC" : 4
-            },
-            {
                 "name" : "Game Theory",
                 "code" : "MA4262",
                 "MC" : 4
             },
-            
+            {
+                "name" : "Algebra I (S)",
+                "code" : "MA2202S",
+                "MC" : "4/5"
+            },
             {
                 "name" : "Total Defence Project Against Threat to Community",
                 "code" : "GEN2002",
@@ -128,6 +127,11 @@
                 "name" : "Mathematical Logic",
                 "code" : "MA4207",
                 "MC" : 4
+            },
+            {
+                "name" : "Theory and Algorithms for Machine Learning",
+                "code" : "CS5339",
+                "MC" : "4"
             }
         ]
     },
@@ -172,6 +176,11 @@
                 "MC" : 4
             },
             {
+                "name" : "Parallel and Concurrent Programming",
+                "code" : "CS3211",
+                "MC" : 4
+            },
+            {
                 "name" : "Natural Language Processing",
                 "code" : "CS4248",
                 "MC" : 4
@@ -182,13 +191,69 @@
                 "MC" : 4
             },
             {
-                "name" : "Algebra I (S)",
-                "code" : "MA2202S",
-                "MC" : "4/5"
-            },
-            {
                 "name" : "Stochastic Operations Research",
                 "code" : "MA4260",
+                "MC" : "4"
+            }
+        ]
+    },
+    "Back Up Classes" : {
+        "Semester 1" : [
+            {
+                "name" : "Randomised Algorithms",
+                "code" : "CS5330",
+                "MC" : "4"
+            },
+            {
+                "name" : "Algorithms at Scale",
+                "code" : "CS5234",
+                "MC" : "4"
+            },
+            {
+                "name" : "Combinatorics and Graphs I",
+                "code" : "MA2214",
+                "MC" : "4"
+            },
+            {
+                "name" : "Stochastic Processes I",
+                "code" : "MA3238",
+                "MC" : "4"
+            },
+            {
+                "name" : "Algebra II",
+                "code" : "MA3201",
+                "MC" : "4"
+            },
+            {
+                "name" : "Galois Theory",
+                "code" : "MA4203",
+                "MC" : "4"
+            }
+        ],
+        "Semester 2" : [
+            {
+                "name" : "Introduction to Information Security",
+                "code" : "CS2107",
+                "MC" : "4"
+            },
+            {
+                "name" : "Competitive Programming",
+                "code" : "CS3233",
+                "MC" : "4"
+            },
+            {
+                "name" : "Combinatorics and Graphs II",
+                "code" : "MA3323",
+                "MC" : "4"
+            },
+            {
+                "name" : "Stochastic Processes II",
+                "code" : "MA4251",
+                "MC" : "4"
+            },
+            {
+                "name" : "Introduction to Computer Networks",
+                "code" : "CS2105",
                 "MC" : "4"
             }
         ]

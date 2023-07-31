@@ -12,6 +12,7 @@ import { Introduction } from "./components/pages/profile/aboutme/Introduction";
 import { MeritSection } from "./components/pages/profile/merits/MeritSection";
 import { TimelineTree } from "./components/pages/profile/timeline/TimelineTree";
 import { CourseWork } from "./components/pages/blog/university/coursework/CourseWork";
+import { PlannerPage } from "./components/pages/blog/university/planner/PlannerPage";
 
 export const router = (
         <>
@@ -28,7 +29,7 @@ export const router = (
         <Route path="/aboutme/merits" element={<MeritSection />} />
         <Route path="/aboutme/experiences" element={<TimelineTree />} />
         <Route path="/aboutme/coursework" element={<CourseWork />} />
-        <Route path="/aboutme/studyplan" element={<Portfolio />} />
+        <Route path="/aboutme/studyplan" element={<PlannerPage />} />
         <Route path="/aboutme/learning" element={<Portfolio />} />
 
         <Route path="/blog/uni" element={<UniversityBlogPage />} />
