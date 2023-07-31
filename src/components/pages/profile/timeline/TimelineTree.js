@@ -24,17 +24,19 @@ export const TimelineTree = () => {
         <Chrono
             items={data}
             mode="VERTICAL_ALTERNATING"
-            itemWidth={15}
+            itemWidth={25}
             fontSizes={{
                 cardSubtitle: '0.85rem',
-                cardText: '20px',
+                cardText: '25px',
                 cardTitle: '25px',
                 title: '1rem',}}
-            timelinePointDimension={isSmallScreen ? 5 : 50}
+            timelinePointDimension={isSmallScreen ? 5 : 30}
             
         />
         </div>
+        <div style={{margin: "2% 15% 2% 15%" }}>
         <BackButton description={"Back to About Me Page"} redirect_link={'/aboutme'} />
+        </div>
         </>
   );
 }

@@ -17,7 +17,9 @@ function Skills() {
         </p>
       <SkillsSection/>
       <InterpersonalSkillsSection/>
+      <div style={{margin: "2% 15% 2% 15%" }}>
       <BackButton description={"Back to About Me Page"} redirect_link={'/aboutme'} />
+      </div>
     </>
   )
 }
