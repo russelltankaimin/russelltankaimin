@@ -2,7 +2,6 @@ import React from "react";
 import Home from "./components/pages/home/Home";
 import { Route, Routes } from 'react-router-dom';
 import Skills from "./components/pages/profile/Skill";
-import { Portfolio } from "./components/pages/profile/Portfolio";
 import { BlogLandingPage } from "./components/pages/blog/Blog";
 import { ContentPage } from "./components/pages/blog/interests/landing/BlogLandingPage";
 import { UniversityBlogPage } from "./components/pages/blog/university/UniversityBlogPage";
@@ -13,6 +12,7 @@ import { MeritSection } from "./components/pages/profile/merits/MeritSection";
 import { TimelineTree } from "./components/pages/profile/timeline/TimelineTree";
 import { CourseWork } from "./components/pages/blog/university/coursework/CourseWork";
 import { PlannerPage } from "./components/pages/blog/university/planner/PlannerPage";
+import { LearningPage } from "./components/pages/blog/university/self_learn/LearningPage";
 
 export const router = (
         <>
@@ -30,7 +30,7 @@ export const router = (
         <Route path="/aboutme/experiences" element={<TimelineTree />} />
         <Route path="/aboutme/coursework" element={<CourseWork />} />
         <Route path="/aboutme/studyplan" element={<PlannerPage />} />
-        <Route path="/aboutme/learning" element={<Portfolio />} />
+        <Route path="/aboutme/learning" element={<LearningPage />} />
 
         <Route path="/blog/uni" element={<UniversityBlogPage />} />
         {/* <Route path="/russelltankaimin/blog/uni" element={<UniversityBlogPage />} /> */}
