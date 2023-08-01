@@ -13,7 +13,7 @@ export const ProjectCard = ({
     },
   }) => {
     return (
-    <Card style={{ width: '18rem', margin : "10px 30px 10px 30px", borderColor:"orange", borderWidth:"10px"}}>
+    <Card style={{width:"15rem", marginTop:"10px", marginBottom:"10px", borderColor:"orange", borderWidth:"10px"}}>
     <Card.Body>
         <Card.Title>{title}
         <Badge bg={status === 'Pending' ? "danger" : (status === "Completed" ? "success" : "secondary")}
