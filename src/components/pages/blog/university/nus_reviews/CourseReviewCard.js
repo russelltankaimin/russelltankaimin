@@ -9,7 +9,7 @@ export const CourseReviewCard = (props) => {
     const obj = props.aysem;
     return (
         <Accordion defaultActiveKey="0" style={{margin : "10px 50px 10px 50px"}}>
-        <Accordion.Item eventKey={props.idx} style={{marginBottom:"10px", borderColor:"#3E9F9F", borderWidth:"10px", fontSize:"20px"}}>
+        <Accordion.Item eventKey={props.idx} style={{marginBottom:"10px", borderColor:"#3E9F9F", borderWidth:"2px", fontSize:"20px"}}>
             <Accordion.Header style={{fontWeight:"bolder", fontSize:"30px"}}>
             {props.moduleName}
             </Accordion.Header>

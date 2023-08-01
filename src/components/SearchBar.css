@@ -1,9 +1,9 @@
 .searchBar-wrap {
-    background-color: #f0f0f0;
+    background-color: #eec2c2;
     width: fit-content;
-    margin: 2.5rem auto 4rem auto;
-    padding: 0.5rem;
-    border-radius: 5px;
+    margin: 2.5rem auto 1rem auto;
+    padding: 0.05rem 0.25rem;
+    border-radius: 5px;  
 }
   
 .searchBar-wrap form {
