@@ -1,40 +1,26 @@
 import React from "react";
-import data from "./cw.json";
-import { Table } from "react-bootstrap";
+import "./Coursework.css";
+import picture from './img/home-work.png';
+import { CourseTable } from "./CourseTable";
+import { PageImage } from '../../../PageImage';
+import { BackButton } from "../../../../backbutton/BackButton";
 
 export const CourseWork = () => {
-
     return (
-            <Table  striped bordered hover size="md" style={{padding:"10px 10px 10px 10px", textAlign:"center"}}>
-                <thead>
-                    <tr>
-                        <th style={{width:"20%"}}>Semester</th>
-                        <th style={{width:"20%"}}>Module Code</th>
-                        <th style={{width:"20%"}}>Name</th>
-                    </tr>
-                </thead>
-                <tbody>
-                <style>":</style>
-                {Object.entries(data).map(
-                    (idx) => (
-                    <>
-                        {Object.entries(idx[1]).map((coursesInfo) => coursesInfo[0] === "0"
-                        ? (
-                        <tr>
-                        <td rowSpan={idx[1].length}>{idx[0]}</td>
-                        <td>{coursesInfo[1]["code"]}</td>
-                        <td>{coursesInfo[1]["name"]}</td>
-                        </tr>
-                        )
-                        : (<tr>
-                        <td>{coursesInfo[1]["code"]}</td>
-                        <td>{coursesInfo[1]["name"]}</td>
-                        </tr>))}
-                    </>)
-                    )}
-                </tbody>
-                
-            </Table>
-    )
+        <>
+        <PageImage source={picture} />
+        <h1 className="cw_header"><u>My Coursework at NUS</u></h1>
+        <p className="cw_intro">
+            These are some of the courses that I have completed or are currently studying
+            in NUS as part of my Double Degree Programme. Juniors may take a look and perhaps decide
+            what to take at any point of your studies.
 
+            Please do note that this plan is dependent on individual abilities and time management.
+        </p>
+        <CourseTable />
+        <div style={{margin: "2% 15% 2% 15%" }}>
+        <BackButton redirect_link="/aboutme" description={"Back to About Me Page"} />
+        </div>
+        </>
+    );
 }

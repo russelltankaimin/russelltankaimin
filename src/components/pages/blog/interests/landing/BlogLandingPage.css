@@ -1,7 +1,6 @@
 .blog-wrap {
     max-width: 1200px;
-    margin: 0 auto;
-    background-color: rgb(90, 44, 44);
+    margin: 2% 15% 1% 15%;
   }
   
   .blog-goBack {
@@ -18,7 +17,7 @@
 
   .blog-date {
     font-size: 1.2rem;
-    color: #a9a9a9;
+    color: #4a4747;
     font-weight: 500;
   }
   
@@ -40,7 +39,20 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     font-family: monospace;
   }
+
+.header_intro {
+    color:black;
+    margin: 0% 15% 0% 15%; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blogger_header {
+  color:black;
+  margin: 2% 15% 1% 15%;
+  font-family: 'Times New Roman', Times, serif;
+}

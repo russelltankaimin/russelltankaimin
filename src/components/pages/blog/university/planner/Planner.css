@@ -1,0 +1,38 @@
+.planner_intro {
+    color:black;
+    margin: 0% 15% 0% 15%; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.planner_header {
+    color:black;
+    margin: 2% 15% 0% 15%; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.redirector {
+    color:brown;
+    border-width: 3px;
+    border-color: orchid;
+    margin: 0% 15% 0% 15%; 
+    width: 10rem;
+    height: fit-content;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.year, .semester {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mod_content {
+    width: 18rem;
+    margin-left: 40px;
+    margin-right: 10px;
+    border-color: blue ;
+    border-width: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}

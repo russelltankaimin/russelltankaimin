@@ -1,47 +1,28 @@
-import React, {useState } from "react";
+import React from "react";
 import nus_pic from '../../images/nus.png'
+import './UniversityBlog.css'
 import { PageImage } from "../../../pages/PageImage"
-import { Tabs, Tab } from "react-bootstrap";
 import { CourseReviewPage } from "./nus_reviews/CourseReview";
-import { PlannerPage } from "./planner/PlannerPage";
-import {LearningPage} from "./self_learn/LearningPage";
-import { CourseWork } from "./coursework/CourseWork";
-
-const review_text = "These are the modules that I have completed over the course of my studies. You may click below to see my reviews. Do note that these are my thoughts alone and do not represent anybody's (Friends, University, or even Family members etc)";
-const planner_text = "These are some of the modules I plan to take and also when I will take them. This is only tentative (thus subject to change)";
-const learning_text = "Below are the skills and knowledge I currently am learning all by myself. I cannot possibly take all the courses in university, hence I am taking this opportunity to self-learn certain topics that might be useful to make me as versatile to the workforce as a potential software engineer, or as a research scientist in a academic setting."
-const coursework_text = "Classes I took in school";
+import { BackButton } from "../../../backbutton/BackButton";
+import { useMediaQuery } from "react-responsive";
 
 export const UniversityBlogPage = () => {
-
-    let [paraText, setParaText] = useState(coursework_text)
-
+    const isSmallScreen = useMediaQuery({maxWidth: 576});
     return (
     <>
     <PageImage source={nus_pic} filter={""} />
-    <p style={{color:"white", marginLeft: '40px', marginRight:'40px', marginTop:'40px', marginBottom:'40px', fontSize:'25px', fontFamily:"monospace"}}>
-        {paraText}
-        {console.log(paraText)}
+    <h1 className="uniblog-header"><u>NUS Course Reviews</u></h1>
+    <p className="uniblog-intro">
+    These are the modules that I have completed over the course of my studies. You may click below to see my reviews. Do note that these are my thoughts alone and do not represent anybody's (Friends, University, or even Family members etc).
+    I also try to be extremely honest with what I have experienced for the benefit of people looking to take these classes under certain professors.
+    Of course, the same professors might change assessment or lecture style, so do not expect your experience to be the same as mine.
     </p>
-    <Tabs
-      defaultActiveKey="coursework"
-      id="left-tabs-example-1"
-      className="mb-3"
-      style={{fontSize : "25px", backgroundColor : "grey", marginTop : '0%', fontFamily:"monospace", fontWeight:"bolder"}}
-    >
-    <Tab eventKey="coursework" title="Coursework" className="color-white" onEnter={() => setParaText(coursework_text)}>
-    <CourseWork></CourseWork>
-    </Tab>
-    <Tab eventKey="reviews" title="NUS Course Reviews" className="color-white" onEnter={() => setParaText(review_text)}>
-      <CourseReviewPage />
-    </Tab>
-    <Tab eventKey="planner" title="Planner" className="color-white" onEnter={() => setParaText(planner_text)}>
-      <PlannerPage></PlannerPage>
-    </Tab>
-    <Tab eventKey="independent" title="Currently Learning" className="color-white" onEnter={() => setParaText(learning_text)}>
-      <LearningPage></LearningPage>
-    </Tab>
-    </Tabs>
+    <div style={isSmallScreen ? {margin:"2% 0.25% 2% 0.25%"} : {margin: "2% 15% 2% 15%" }}>
+    <CourseReviewPage/>
+    </div>
+    <div style={{margin: "2% 15% 2% 15%" }}>
+    <BackButton description={"Back to Blog Page"} redirect_link={'/blog'} />
+    </div>
     </>
     );
 }

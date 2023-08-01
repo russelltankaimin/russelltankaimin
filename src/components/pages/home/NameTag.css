@@ -1,9 +1,9 @@
 #description_name {
     /* color: rgb(3, 65, 79); */
-    color: white;
+    color: "brown";
     font-weight: bolder;
     flex-shrink: inherit;
     flex-grow: inherit;
     margin: 2% 15% 1% 15%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif
 }

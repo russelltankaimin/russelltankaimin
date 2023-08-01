@@ -1,0 +1,10 @@
+.redirector {
+    color:brown;
+    border-width: 3px;
+    border-color: orchid;
+    margin: 0% 15% 0% 15%; 
+    width: 10rem;
+    height: fit-content;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}

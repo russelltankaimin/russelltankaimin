@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { blogListItems } from '../blogposts/blogposts';
-import Chip from '../misc/Chip';
+import Chip from '../components/Chip';
 import EmptyList from '../blogList/EmptyList';
-import './Blog.css';
-import { Link } from 'react-router-dom';
-import { Button, Row } from 'react-bootstrap';
+import './BlogLandingPage.css';
+import { Row } from 'react-bootstrap';
+import { GeneratedBlogContent } from '../renderer/render';
+import { BackButton } from '../../../../backbutton/BackButton';
 
 const Blog = () => {
   const { id } = useParams();
@@ -20,28 +21,25 @@ const Blog = () => {
 
   return (
     <>
-      <Link className='blog-goBack' to='/blog/interests'>
-        <Button>Go Back</Button>
-      </Link>
       {blog ? (
         <div className='blog-wrap'>
           <header>
             <p className='blog-date'>Published {blog.createdAt}</p>
-            <h1 style={{color:"white"}}>{blog.title}</h1>
+            <h1 style={{color:"black"}}>{blog.title}</h1>
             <div className='blog-subCategory'>
             <Row xs={1} md={4} lg={4} xl={4} xxl={4} className="g-3">
               {blog.subCategory.map((category, i) => (
-                  <Chip label={category} type='chip_display'/>
+                  <Chip label={"#"+category} type='chip_display'/>
               ))}
               </Row>
             </div>
           </header>
-          {console.log(blog.description)}
-          {blog.description.map(x => <p className='blog-desc'>{x}</p>)}
+          <GeneratedBlogContent jsonObject={blog.page} />
         </div>
       ) : (
         <EmptyList />
       )}
+    <BackButton redirect_link={"/blog/interests/"} description={"Back to Blog Home Page"}/>
     </>
   );
 };
