@@ -10,7 +10,7 @@ export const LearningPage = () => {
         <PageImage source={picture} />
         <h1 className="learning_header"><u>My Learning Initiatives</u></h1>
         <p className="learning_intro">
-        I am a very self-directed learning, meaning that I do not
+        I am a very self-directed learner, meaning that I do not
         wait for professors to go through material and I take the
         initiative to pick up certain knowledge and skills by myself.
 

@@ -20,8 +20,11 @@ const links = [
   {
       "link":'/software',
       "name": 'Projects'
-  }
-
+  },
+  {
+    "link":'/notes',
+    "name": 'Notes'
+}
 ];
 
 export default function Home() {
