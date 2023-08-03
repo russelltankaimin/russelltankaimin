@@ -23,11 +23,11 @@ export const BlogLandingPage = () => {
         <h1 className="blog-header"><u>My Blog</u></h1>
         <p className="blog-intro">
         Good day! Welcome to my blog! Here I write down what usually interests me. My blog is split into 2 parts: NUS Module (Course) Reviews and
-        my personal interests. You may click below to get redirected to where you want to go!
+        my personal interests. You may click below to get redirected to where you want to go! </p>
         <center style={{marginTop : "20px"}}>
         <CardGroup style={{margin:"2% 15% 2% 15%"}}>
         {links.map((bulk, index) => 
-        <div >
+        <div style={{marginLeft:"2%", marginRight:"2%", marginBottom:"2%"}}>
         <Card className="redirector">
         <Card.Body style={{width:"10rem", height:"5rem"}}>
             <Card.Title>
@@ -38,7 +38,6 @@ export const BlogLandingPage = () => {
         </div>)}
         </CardGroup>
         </center>
-        </p>
         </>
     );
 }
