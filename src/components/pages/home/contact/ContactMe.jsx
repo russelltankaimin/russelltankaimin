@@ -33,8 +33,8 @@ const links = [
 ]
 
 export const ContactMe = () => <>
-    <center>
     <h2 className="contact_header"><u>Find Me Here</u></h2>
+    <center>
     <Row xs={1} md={2} className="g-4" style={{margin:"1% 15% 1% 15%"}}>
     {links.map((bulk) => { 
         return <ContactCard image_path={bulk["pic"]} redirect_link={bulk["link"]} name={bulk["name"]} />
