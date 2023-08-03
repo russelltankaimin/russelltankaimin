@@ -56,10 +56,7 @@ export default function Home() {
         </div>)}
     </CardGroup>
     </center>
-    <h2 className="contact_header"><u>Find Me Here</u></h2>
-    <center>
     <ContactMe />
-    </center>
     </>
   );
 }
