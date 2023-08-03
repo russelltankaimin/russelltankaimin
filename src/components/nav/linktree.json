@@ -29,6 +29,11 @@
             "name" : "Software/Projects",
             "link" : "/software",
             "sub" : []
+        },
+        {
+            "name" : "Notes",
+            "link" : "/notes",
+            "sub" : []
         }
     ]
 }

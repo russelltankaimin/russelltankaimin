@@ -31,7 +31,7 @@ a {
 .redirector {
     color:brown;
     border-width: 3px;
-    border-color: orchid;
+    /* border-color: orchid; */
     margin-left: 10px;
     width: 10rem;
     height: fit-content;

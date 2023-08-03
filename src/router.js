@@ -13,6 +13,8 @@ import { TimelineTree } from "./components/pages/profile/timeline/TimelineTree";
 import { CourseWork } from "./components/pages/blog/university/coursework/CourseWork";
 import { PlannerPage } from "./components/pages/blog/university/planner/PlannerPage";
 import { LearningPage } from "./components/pages/blog/university/self_learn/LearningPage";
+import { NotesLandingPage } from "./components/pages/notes/NotesLandingPage";
+import Note from "./components/pages/notes/Note";
 
 export const router = (
         <>
@@ -46,6 +48,8 @@ export const router = (
 
         <Route path="/software" element={<SoftwarePage />} />
         {/* <Route path="russelltankaimin/software" element={<SoftwarePage />} /> */}
+        <Route path="/notes" element={<NotesLandingPage/>} />
+        <Route path="/notes/:id" element={<Note />} />
         </Routes>
         </>
     );
