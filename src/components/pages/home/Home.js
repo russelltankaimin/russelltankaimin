@@ -45,7 +45,7 @@ export default function Home() {
     <center style={{marginTop : "20px"}}>
     <CardGroup style={{margin:"2% 15% 2% 15%"}}>
         {links.map((bulk, index) => 
-        <div >
+        <div style={{marginLeft:"2%", marginRight:"2%", marginBottom:"2%"}}>
         <Card className="redirector">
         <Card.Body>
             <Card.Title>

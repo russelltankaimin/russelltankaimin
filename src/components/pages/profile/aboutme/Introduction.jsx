@@ -47,11 +47,11 @@ export const Introduction = () => <>
     that I have done in my time at NUS, and for friends visiting looking to do classes
     with me, you may visit the planner by clicking on the appropriate tab below.
     </p>
-    <center style={{marginTop : "20px"}}>
+    <center>
     <CardGroup style={{margin:"2% 15% 2% 15%"}}>
         {links.map((bulk, index) => 
         <div >
-        <Card className="redirector">
+        <Card className="redirector" style={{marginLeft:"2%", marginRight:"2%", marginBottom:"2%"}}>
         <Card.Body>
             <Card.Title>
             <Nav.Link as={Link} to={bulk["link"]}>{bulk["name"]}</Nav.Link>
