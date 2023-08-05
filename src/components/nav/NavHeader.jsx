@@ -33,10 +33,14 @@ function NavHeader() {
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   {data["main"].map((bulk, idx) => <>
                   {/* {console.log("bulk", bulk)} */}
-                    <Nav.Link as={Link} to={bulk["link"]} className='main_link'>{bulk["name"]}</Nav.Link>
+                    <Nav.Link as={Link} to={bulk["link"]} className='main_link'>
+                    {bulk["name"]}
+                    </Nav.Link>
                     {bulk["sub"].map((subbulk, idx1) => <>
                     {/* {console.log("subbulk link", subbulk)} */}
-                      <Nav.Link as={Link} to={Object.values(subbulk)[0]} className='sub_link'>{Object.keys(subbulk)[0]}</Nav.Link>
+                      <Nav.Link as={Link} to={Object.values(subbulk)[0]} className='sub_link'>
+                      {Object.keys(subbulk)[0]}
+                      </Nav.Link>
                     </>)}
                   </>)}
                 </Nav>

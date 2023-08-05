@@ -2,10 +2,27 @@
     font-weight: light;
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: black;
+    border-color: transparent;
+    padding-left: 14px;
+    padding-right: 10px;
+}
+
+.main_link:hover {
+    background-color: rgb(158, 189, 222);
+    border-color: transparent;
+}
+
+.sub_link:hover {
+    background-color: rgb(176, 221, 185);
 }
 
 .sub_link {
     font-size: 17px;
-    padding-left: 13px;
+    padding-left: 23px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-family:Arial, Helvetica, sans-serif;
 }
