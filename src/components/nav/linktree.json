@@ -22,7 +22,8 @@
             "link" : "/blog",
             "sub" : [
                 {"Course Reviews" : "/blog/uni"},
-                {"Interests" : "/blog/interests"}
+                {"Interests" : "/blog/interests"},
+                {"Travels" : "/blog/travels"}
             ]
         },
         {

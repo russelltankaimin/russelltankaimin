@@ -15,6 +15,7 @@ import { PlannerPage } from "./components/pages/blog/university/planner/PlannerP
 import { LearningPage } from "./components/pages/blog/university/self_learn/LearningPage";
 import { NotesLandingPage } from "./components/pages/notes/NotesLandingPage";
 import Note from "./components/pages/notes/Note";
+import { Wanderings } from "./components/pages/blog/wanderings/Wanderings";
 
 export const router = (
         <>
@@ -50,6 +51,8 @@ export const router = (
         {/* <Route path="russelltankaimin/software" element={<SoftwarePage />} /> */}
         <Route path="/notes" element={<NotesLandingPage/>} />
         <Route path="/notes/:id" element={<Note />} />
+
+        <Route path="/blog/travels" element={<Wanderings />} />
         </Routes>
         </>
     );
