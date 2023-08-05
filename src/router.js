@@ -17,6 +17,7 @@ import { NotesLandingPage } from "./components/pages/notes/NotesLandingPage";
 import Note from "./components/pages/notes/Note";
 import { Wanderings } from "./components/pages/blog/wanderings/Wanderings";
 import { CoursePageAndReview } from "./components/pages/blog/university/nus_reviews/CoursePage";
+import { CityReviewPage } from "./components/pages/blog/wanderings/cities/CityReviewPage";
 
 export const router = (
         <>
@@ -54,6 +55,7 @@ export const router = (
         <Route path="/notes/:id" element={<Note />} />
 
         <Route path="/blog/travels" element={<Wanderings />} />
+        <Route path="/blog/travels/:city/" element={<CityReviewPage />} />
         </Routes>
         </>
     );

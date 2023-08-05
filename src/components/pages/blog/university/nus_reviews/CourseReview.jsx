@@ -14,6 +14,7 @@ const retrieveBackUpData = () => {
 }
 
 export const CourseReviewPage = (props) => {
+
     let {data, isLoading, isError} = useQuery("data", async () => {
         const res = await request(API_LINK, BLOG_REVIEW_QUERY);
         return res;
@@ -32,7 +33,9 @@ export const CourseReviewPage = (props) => {
         ? <Badge bg="danger" style={{fontSize : "20px", marginLeft:"30px", marginBottom:"15px"}}>GraphQL DB down</Badge> 
         : <Badge bg="success" style={{fontSize : "20px", marginLeft:"30px", marginBottom:"15px"}}>GraphQL DB connected</Badge>}
         {/* {data["courseReviews"].map((x, index) => <CourseReviewCard moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]}/>)} */}
-        {data["courseReviews"].map((x, index) => <CourseReviewTab moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]} slug={x.slug} description={x.description}/>)}
+        { data["courseReviews"] != null ? data["courseReviews"].map((x, index) => <CourseReviewTab moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]} slug={x.slug} description={x.description}/>)
+        : <p>Loading...</p>
+        }
         </>
     );
     // return <h1 style={{color:"white"}}>HIII</h1>

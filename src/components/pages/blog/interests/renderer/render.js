@@ -10,6 +10,8 @@ export const GeneratedBlogContent = ({jsonObject}) => {
                             return <h2>{obj["content"]}</h2>
                         case "h3":
                             return <h3>{obj["content"]}</h3>
+                        case "h4":
+                            return <h4>{obj["content"]}</h4>
                         case "p":
                             return <p>{obj["content"]}</p>
                         case "blockquote":
