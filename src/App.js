@@ -1,5 +1,5 @@
 import React from 'react';
-import NavHeader from './components/NavHeader';
+import NavHeader from './components/nav/NavHeader';
 import './App.css';
 import { router } from './router';
 

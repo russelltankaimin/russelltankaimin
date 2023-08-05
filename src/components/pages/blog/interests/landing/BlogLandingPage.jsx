@@ -5,10 +5,9 @@ import EmptyList from "../blogList/EmptyList";
 import { blogListItems } from "../blogposts/blogposts";
 import { PageImage } from "../../../PageImage";
 import pic from "../../../images/interestsicon.png"
+import { BackButton } from "../../../../backbutton/BackButton";
 
 export const ContentPage = () => {
-
-  // console.log("BlogList");
 
   const [blogs, setBlogs] = useState(blogListItems);
   const [searchKey, setSearchKey] = useState('');
@@ -36,16 +35,24 @@ export const ContentPage = () => {
   return (
     <>
     <PageImage source={pic} />
-    <p style={{color:"white", marginLeft: '40px', marginRight:'40px', marginTop:'40px', marginBottom:'40px', fontSize:'25px', fontFamily:"monospace"}}>
-      This is my blog where I will talk about my interests (mostly but not limited to Computing and Maths related). Note that this page is still under construction obviously...
+    <h1 className="blogger_header"><u>My Blog</u></h1>
+    <p className="header_intro">
+      This is my blog where I will talk about my interests (mostly but not limited to Computing and Maths related). In this page, my blogs will be tagged with certain topics like
+      Mathematics, Computer Science, NUS, Miscellaneous, Astrophysics, Geography, Thoughts, Life, Hikes, Research or any other topic in general. This is essentially my interests blog, so
+      almost anything I want to write about can be here!
     </p>
     <SearchBar
     value={searchKey}
     clearSearch={handleClearSearch}
     formSubmit={handleSearchBar}
     handleSearchKey={(e) => setSearchKey(e.target.value)} />
-    
+    <h2 className="blogger_header"><u>Posts</u></h2>
+    <div style={{margin: "2% 15% 2% 15%" }}>
     {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
-        </>
+    </div>
+    <div style={{margin: "2% 15% 2% 15%" }}>
+    <BackButton description={"Back to Blog Page"} redirect_link={'/blog'} />
+    </div>
+    </>
     );
 }

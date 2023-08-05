@@ -1,15 +1,11 @@
 import React from 'react';
-import BlogItem from '../blogposts/BlogItem';
 import './BlogList.css';
+import { BlogIntroCard } from '../components/BlogIntroCard';
 
 const BlogList = ({ blogs }) => {
-  return (
-    <div className='blogList-wrap'>
-      {blogs.map((blog) => (
-        <BlogItem blog={blog} />
-      )).reverse()}
-    </div>
-  );
+  return blogs.map((blog) => (
+        <BlogIntroCard blog={blog} />
+      )).reverse()
 };
 
 export default BlogList;

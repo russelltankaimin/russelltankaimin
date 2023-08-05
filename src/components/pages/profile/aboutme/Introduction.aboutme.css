@@ -1,0 +1,26 @@
+.intro {
+    color:black;
+    margin: 0% 15% 0% 15%; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro-header {
+    color:black;
+    margin: 2% 15% 1% 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.redirector {
+    color:brown;
+    border-width: 0px;
+    border-color: rgb(142, 130, 220);
+    margin-left: 10px;
+    width: 10rem;
+    height: fit-content;
+    column-gap: 10%;
+    margin-top: 10px;
+    margin-right: 15px;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}

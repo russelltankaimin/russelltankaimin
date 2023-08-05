@@ -31,7 +31,8 @@
         {"code": "CS2103T", "name" : "Software Engineering"},
         {"code": "MA2104", "name" : "Multivariable Calculus"},
         {"code": "CS2109S", "name" : "Introduction to A.I and Machine Learning"},
-        {"code": "MA3252", "name" : "Linear Network and Optimisation"}
+        {"code": "MA3252", "name" : "Linear Network and Optimisation"},
+        {"code": "CS4230", "name" : "Foundations of Modern Cryptography (Audited)"}
     ],
     "AY 2023/2024 Semester 1" : [
         {"code": "CP3209", "name" : "Undergraduate Research Project in Computing"},

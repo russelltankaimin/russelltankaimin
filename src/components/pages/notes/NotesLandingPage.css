@@ -1,0 +1,30 @@
+.notes_header, .category {
+    color:black;
+    margin: 2% 15% 1% 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.notes_intro {
+    color:black;
+    margin: 0% 15% 0% 15%; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.notes_tree {
+    color:black;
+    margin: 2% 15% 0% 15%; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.redirector {
+    color:brown;
+    border-width: 3px;
+    border-color: orchid;
+    margin: 0% 15% 0% 15%; 
+    width: 10rem;
+    height: fit-content;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
