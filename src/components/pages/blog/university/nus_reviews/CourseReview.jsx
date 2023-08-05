@@ -32,7 +32,7 @@ export const CourseReviewPage = (props) => {
         ? <Badge bg="danger" style={{fontSize : "20px", marginLeft:"30px", marginBottom:"15px"}}>GraphQL DB down</Badge> 
         : <Badge bg="success" style={{fontSize : "20px", marginLeft:"30px", marginBottom:"15px"}}>GraphQL DB connected</Badge>}
         {/* {data["courseReviews"].map((x, index) => <CourseReviewCard moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]}/>)} */}
-        {data["courseReviews"].map((x, index) => <CourseReviewTab moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]} slug={x.slug}/>)}
+        {data["courseReviews"].map((x, index) => <CourseReviewTab moduleName={x.moduleName} content={x.contentMain} idx={index} aysem={x.aysem["aySem"]} slug={x.slug} description={x.description}/>)}
         </>
     );
     // return <h1 style={{color:"white"}}>HIII</h1>

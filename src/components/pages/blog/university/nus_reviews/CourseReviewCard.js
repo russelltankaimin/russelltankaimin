@@ -36,7 +36,11 @@ export const CourseReviewTab = (props) => {
         <Card>
         <Card.Body>
         <Nav.Link as={Link} to={`/blog/uni/${URL}`}
-                state={{content:props.content}}>
+                state={{content:props.content,
+                moduleName : props.moduleName,
+                description: props.description,
+                aySem : obj,
+                }}>
         <u>{props.moduleName}</u>
         <Badge bg="success" style={{marginLeft:"5px"}}>{obj.slice(0, 23)}</Badge>
         <Badge bg="warning" style={{marginLeft:"5px"}}>{obj.slice(23)}</Badge>
