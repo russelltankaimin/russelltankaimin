@@ -7,16 +7,18 @@ import { Link } from "react-router-dom";
 export const BackButton = ({redirect_link, description}) => {
     const isSmallScreen = useMediaQuery({maxWidth: 576})
 return (<>
+    <Nav.Link as={Link} to={redirect_link}>
     <CardGroup style={ !isSmallScreen 
     ? {margin:"2% 10% 2% 15%"} 
-    : {margin:"1% 10% 10% 10%"}}>
+    : {margin:"1% 10% 1% 10%"}}>
         <Card className="redirector">
             <Card.Body>
                 <Card.Title>
-                    <Nav.Link as={Link} to={redirect_link}>{description}</Nav.Link>
+                {description}
                 </Card.Title>
             </Card.Body>
         </Card>
     </CardGroup>
+    </Nav.Link>
 </>)
 }

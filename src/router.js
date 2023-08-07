@@ -15,6 +15,9 @@ import { PlannerPage } from "./components/pages/blog/university/planner/PlannerP
 import { LearningPage } from "./components/pages/blog/university/self_learn/LearningPage";
 import { NotesLandingPage } from "./components/pages/notes/NotesLandingPage";
 import Note from "./components/pages/notes/Note";
+import { Wanderings } from "./components/pages/blog/wanderings/Wanderings";
+import { CoursePageAndReview } from "./components/pages/blog/university/nus_reviews/CoursePage";
+import { CityReviewPage } from "./components/pages/blog/wanderings/cities/CityReviewPage";
 
 export const router = (
         <>
@@ -36,7 +39,7 @@ export const router = (
 
         <Route path="/blog/uni" element={<UniversityBlogPage />} />
         {/* <Route path="/russelltankaimin/blog/uni" element={<UniversityBlogPage />} /> */}
-
+        <Route path="/blog/uni/:slug" element={<CoursePageAndReview />} />
         <Route path="/blog/interests" element={<ContentPage />} />
         {/* <Route path="/russelltankaimin/blog/interests" element={<ContentPage />} /> */}
 
@@ -50,6 +53,9 @@ export const router = (
         {/* <Route path="russelltankaimin/software" element={<SoftwarePage />} /> */}
         <Route path="/notes" element={<NotesLandingPage/>} />
         <Route path="/notes/:id" element={<Note />} />
+
+        <Route path="/blog/travels" element={<Wanderings />} />
+        <Route path="/blog/travels/:city/" element={<CityReviewPage />} />
         </Routes>
         </>
     );
