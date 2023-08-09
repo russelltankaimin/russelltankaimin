@@ -13,3 +13,16 @@ export const BLOG_REVIEW_QUERY = gql`
     }
   }
 `;
+
+export const getQueryFromSlug = gql`
+    query CourseReviews($slug: String!) {
+        courseReview(where: {slug: $slug}) {
+          contentMain
+          aysem {
+            aySem
+          }
+          moduleName
+          description
+        }
+      }
+    `
