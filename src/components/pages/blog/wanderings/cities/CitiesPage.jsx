@@ -6,14 +6,14 @@ import { CityReviewCard } from "./CityReview";
 import { useMediaQuery } from "react-responsive";
 import { CITY_QUERY } from '../../../../../graphql/cities_queries';
 import dataDict from './citiesbackup.json';
+import { HYGRAPH_API_LINK } from "../../../../../graphql/query_utils";
 const DB_DOWN = "DB DOWN";
 const DB_UP = "DB CONNECTED"
 
 export const CitiesPage = () => {
-    const API_LINK = "https://ap-southeast-2.cdn.hygraph.com/content/clip6zmzt0rd601upbtfxfwz3/master";
 
     let {data, isLoading, isError} = useQuery("data", async () => {
-        const res = await request(API_LINK, CITY_QUERY);
+        const res = await request(HYGRAPH_API_LINK, CITY_QUERY);
         return res;
     });
 

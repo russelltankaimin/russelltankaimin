@@ -4,8 +4,16 @@ import picture from "./img/schedule.png"
 import { PageImage } from '../../../PageImage'
 import { BackButton } from "../../../../backbutton/BackButton";
 import { PlannerList } from "./PlannerList";
+import { SeoInator } from "../../../../../seo/SeoInator";
 
 export const PlannerPage = () => {
+
+    const seo = new SeoInator({
+        title: "My Study Plan at NUS",
+        description: "Below, I list all the potential classes that I am interested, and may take in the whatever remaining semesters I have. For friends or juniors visiting and wanting to take classes with me , you may refer to this page.",
+        url: window.location.pathname,
+        imagePath: "/img/schedule.png"
+    })
 
     return (<>
         <PageImage source={picture} />
@@ -28,5 +36,7 @@ export const PlannerPage = () => {
         <div style={{margin: "2% 15% 2% 15%" }}>
         <BackButton description={"Back to About Me Page"} redirect_link={'/aboutme'} />
         </div>
+        {seo.to_string()}
+        {seo.insert_helmet()}
     </>)
 }
