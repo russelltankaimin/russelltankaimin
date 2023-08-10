@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { PageImage } from '../../PageImage.js';
 import './Introduction.aboutme.css';
 import pic from '../../images/russell_face.jpeg'
+import { SeoInator } from "../../../../seo/SeoInator.js";
 
 const links = [
     {
@@ -33,6 +34,14 @@ const links = [
     }
 
 ];
+
+const seo = new SeoInator({
+    title: "About Russell Tan Kai Min",
+    description: "Below are some links where you can find out more about me in various aspects. This means getting to know what I am good at, what I have experienced, what I am up to in NUS and also what future plans I have for my lifelong learning.",
+    url: window.location.pathname,
+    imagePath: '../../PageImage.js'
+
+})
 
 export const Introduction = () => <>
     <PageImage source={pic}/>
@@ -63,5 +72,6 @@ export const Introduction = () => <>
     </CardGroup>
     </div>
     </center>
-
+    {seo.to_string()}
+    {seo.insert_helmet()}
 </>

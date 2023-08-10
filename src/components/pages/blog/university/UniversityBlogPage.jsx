@@ -1,13 +1,25 @@
 import React from "react";
 import nus_pic from '../../images/nus.png'
 import './UniversityBlog.css'
+import { SeoInator } from "../../../../seo/SeoInator";
 import { PageImage } from "../../../pages/PageImage"
 import { CourseReviewPage } from "./nus_reviews/CourseReview";
 import { BackButton } from "../../../backbutton/BackButton";
 import { useMediaQuery } from "react-responsive";
 
 export const UniversityBlogPage = () => {
+    
     const isSmallScreen = useMediaQuery({maxWidth: 576});
+
+    const seo = new SeoInator(
+        {
+            title: "NUS Course Reviews",
+            description: "These are the modules that I have completed over the course of my studies. You may click below to see my reviews.",
+            url: window.location.pathname,
+            imagePath: "../../images/nus.png"
+        }
+    )
+
     return (
     <>
     <PageImage source={nus_pic} filter={""} />
@@ -23,6 +35,8 @@ export const UniversityBlogPage = () => {
     <div style={{margin: "2% 15% 2% 15%" }}>
     <BackButton description={"Back to Blog Page"} redirect_link={'/blog'} />
     </div>
+    {seo.to_string()}
+    {seo.insert_helmet()}
     </>
     );
 }

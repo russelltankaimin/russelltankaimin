@@ -6,10 +6,22 @@ import { PageImage } from "../../PageImage";
 import { Chrono } from "react-chrono";
 import { useMediaQuery } from "react-responsive";
 import { BackButton } from "../../../backbutton/BackButton";
+import { SeoInator } from "../../../../seo/SeoInator";
 
 export const TimelineTree = () => {
     let data = dataDict["Timeline"];
     const isSmallScreen = useMediaQuery({maxWidth: 576});
+
+    const seo = new SeoInator({
+        title: "Experiences - The Trodden Road",
+        url : window.location.pathname,
+        description: `I have been studying in Singapore and have gone through the full 10 years of compulsory Singapore education
+        and have gained and grown so much over the years. I have also been actively trying to find opportunities to 
+        apply my skills in university and various internships. I hope to gain experience in both
+        software engineering and research as well.`,
+        imagePath: '/img/experience.png'
+    })
+
     return (
         <>
         <PageImage source={picture} />
@@ -37,6 +49,8 @@ export const TimelineTree = () => {
         <div style={{margin: "2% 15% 2% 15%" }}>
         <BackButton description={"Back to About Me Page"} redirect_link={'/aboutme'} />
         </div>
+        {seo.to_string()}
+        {seo.insert_helmet()}
         </>
   );
 }

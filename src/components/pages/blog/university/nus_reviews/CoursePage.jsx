@@ -10,8 +10,8 @@ import { BackButton } from "../../../../backbutton/BackButton";
 import { useQuery } from "react-query";
 import request from "graphql-request";
 import { getQueryFromSlug } from "../../../../../graphql/module_queries";
-
-const API_LINK = "https://ap-southeast-2.cdn.hygraph.com/content/clip6zmzt0rd601upbtfxfwz3/master";
+import { SeoInator } from "../../../../../seo/SeoInator";
+import { HYGRAPH_API_LINK } from "../../../../../graphql/query_utils";
 
 export const CoursePageAndReview = () => {
     console.log(window.location.pathname.split('/').slice(-1)[0])
@@ -22,7 +22,7 @@ export const CoursePageAndReview = () => {
     let semester = null;
 
     let {data, isLoading, isError} = useQuery("data", async () => {
-        const res = await request(API_LINK, getQueryFromSlug, {slug : slug});
+        const res = await request(HYGRAPH_API_LINK, getQueryFromSlug, {slug : slug});
         return res;
     });
 
@@ -43,6 +43,15 @@ export const CoursePageAndReview = () => {
             semester = data.aysem["aySem"].slice(23);
         }
     }
+
+    const seo = new SeoInator(
+        {
+            title: data.moduleName,
+            url: window.location.pathname,
+            description: data.description,
+            imagePath: '/img/online-learning.png'
+        }
+    )
         
     return <>
         <PageImage source={picture} />
@@ -55,6 +64,8 @@ export const CoursePageAndReview = () => {
         <h3 style={{fontFamily:"Times New Roman"}}><u>Review</u></h3>
         <ReactMarkdown children={data.contentMain} remarkPlugins={[remarkGfm]} />
         </div>
+        {seo.to_string()}
+        {seo.insert_helmet()}
         <BackButton description={"Back to NUS Course Reviews"} redirect_link={'/blog/uni'} />  
         </>
 }

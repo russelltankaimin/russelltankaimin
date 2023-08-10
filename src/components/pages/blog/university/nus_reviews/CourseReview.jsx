@@ -2,12 +2,10 @@ import React from "react";
 import { request } from "graphql-request";
 import { BLOG_REVIEW_QUERY } from "../../../../../graphql/module_queries";
 import { useQuery } from "react-query";
+import { HYGRAPH_API_LINK } from "../../../../../graphql/query_utils";
 import backupData from './backup_data/courses.json'
 import { CourseReviewTab } from "./CourseReviewCard";
 import { Badge } from "react-bootstrap";
-
-const API_LINK = "https://ap-southeast-2.cdn.hygraph.com/content/clip6zmzt0rd601upbtfxfwz3/master";
-
 
 const retrieveBackUpData = () => {
     return backupData;
@@ -16,7 +14,7 @@ const retrieveBackUpData = () => {
 export const CourseReviewPage = (props) => {
 
     let {data, isLoading, isError} = useQuery("data", async () => {
-        const res = await request(API_LINK, BLOG_REVIEW_QUERY);
+        const res = await request(HYGRAPH_API_LINK, BLOG_REVIEW_QUERY);
         return res;
     });
     console.log(isLoading, isError)
