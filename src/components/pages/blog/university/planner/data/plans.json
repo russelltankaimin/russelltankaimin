@@ -6,14 +6,15 @@
                 "code" : "CS2106",
                 "MC" : 4
             },
-            {
-                "name" : "Database Systems",
-                "code" : "CS2102",
-                "MC" : 4
-            },
+            
             {
                 "name" : "Non-Linear Programming",
                 "code" : "MA3236",
+                "MC" : 4
+            },
+            {
+                "name" : "Stochastic Processes I",
+                "code" : "MA3238",
                 "MC" : 4
             },
             {
@@ -42,16 +43,16 @@
                 "name" : "Foundations of Machine Learning",
                 "code" : "CS3264",
                 "MC" : 4
-            },
-            {
-                "name" : "Game Theory",
-                "code" : "MA4262",
-                "MC" : 4
-            },
+            },       
             {
                 "name" : "Algebra I (S)",
                 "code" : "MA2202S",
                 "MC" : "4/5"
+            },
+            {
+                "name" : "Introduction to Information Theory",
+                "code" : "CS3236",
+                "MC" : 4
             },
             {
                 "name" : "Total Defence Project Against Threat to Community",
@@ -62,7 +63,13 @@
                 "name" : "Undergraduate Research Project in Computing",
                 "code" : "CP3209",
                 "MC" : 4
-            },{
+            },
+            {
+                "name" : "Quantum Computing",
+                "code" : "CS4268",
+                "MC" : 4
+            },
+            {
                 "name" : "What is a Planet?",
                 "code" : "HSI2009",
                 "MC" : 4
@@ -119,10 +126,10 @@
                 "MC" : 4
             },
             {
-                "name" : "Quantum Computing",
-                "code" : "CS4268",
+                "name" : "Game Theory",
+                "code" : "MA4262",
                 "MC" : 4
-            }, 
+            },
             {
                 "name" : "Mathematical Logic",
                 "code" : "MA4207",
@@ -158,8 +165,8 @@
                 "MC" : 4
             },
             {
-                "name" : "Stochastic Processes and Algorithms",
-                "code" : "MA5249",
+                "name" : "Database Systems",
+                "code" : "CS2102",
                 "MC" : 4
             }
         ],
@@ -186,11 +193,6 @@
                 "MC" : 4
             }, 
             {
-                "name" : "Introduction to Information Theory",
-                "code" : "CS3236",
-                "MC" : 4
-            },
-            {
                 "name" : "Stochastic Operations Research",
                 "code" : "MA4260",
                 "MC" : "4"
@@ -212,11 +214,6 @@
             {
                 "name" : "Combinatorics and Graphs I",
                 "code" : "MA2214",
-                "MC" : "4"
-            },
-            {
-                "name" : "Stochastic Processes I",
-                "code" : "MA3238",
                 "MC" : "4"
             },
             {

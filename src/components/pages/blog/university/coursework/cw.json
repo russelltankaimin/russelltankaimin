@@ -31,13 +31,14 @@
         {"code": "CS2103T", "name" : "Software Engineering"},
         {"code": "MA2104", "name" : "Multivariable Calculus"},
         {"code": "CS2109S", "name" : "Introduction to A.I and Machine Learning"},
-        {"code": "MA3252", "name" : "Linear Network and Optimisation"},
+        {"code": "MA3252", "name" : "Linear and Network Optimisation"},
         {"code": "CS4230", "name" : "Foundations of Modern Cryptography (Audited)"}
     ],
     "AY 2023/2024 Semester 1" : [
         {"code": "CP3209", "name" : "Undergraduate Research Project in Computing"},
         {"code": "CS2106", "name" : "Introduction to Operating Systems"},
         {"code": "MA3236", "name" : "Non Linear Programming"},
+        {"code": "MA3238", "name" : "Stochastic Processes I"},
         {"code": "HSH1000", "name" : "The Human Condition"},
         {"code": "HSI1000", "name" : "How Science Works, Why Science Works"},
         {"code": "GEN2002X", "name" : "Total Defence Project Against Threat to Community"}
