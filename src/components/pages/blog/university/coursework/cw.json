@@ -42,6 +42,16 @@
         {"code": "HSH1000", "name" : "The Human Condition"},
         {"code": "HSI1000", "name" : "How Science Works, Why Science Works"},
         {"code": "GEN2002X", "name" : "Total Defence Project Against Threat to Community"}
+    ],
+    "AY 2023/2024 Semester 2" : [
+        {"code": "CP3209", "name" : "Undergraduate Research Project in Computing (Part II)"},
+        {"code": "CS3236", "name" : "Introduction to Information Theory"},
+        {"code": "CS3263", "name" : "Foundations of Artificial Intelligence"},
+        {"code": "CS4231", "name" : "Parallel and Distributed Algorithms"},
+        {"code": "DTK1234", "name" : "Design Thinking"},
+        {"code": "MA2202", "name" : "Algebra I"},
+        {"code": "GEN2002X", "name" : "Total Defence Project Against Threat to Community (Part II)"},
+        {"code" : "CFG3001", "name" : "Career Advancement"}
     ]
 
 }
