@@ -1,97 +1,15 @@
 {
-    "2023-2024" : {
-        "Semester 1" : [
-            {
-                "name" : "Introduction to Operating Systems",
-                "code" : "CS2106",
-                "MC" : 4
-            },
-            
-            {
-                "name" : "Non-Linear Programming",
-                "code" : "MA3236",
-                "MC" : 4
-            },
-            {
-                "name" : "Stochastic Processes I",
-                "code" : "MA3238",
-                "MC" : 4
-            },
-            {
-                "name" : "Total Defence Project Against Threat to Community",
-                "code" : "GEN2002",
-                "MC" : 2
-            },
-            {
-                "name" : "How Science Works, Why Science Works",
-                "code" : "HSI1000",
-                "MC" : 4
-            },
-            {
-                "name" : "The Human Condition",
-                "code" : "HSH1000",
-                "MC" : 4
-            },
-            {
-                "name" : "Undergraduate Research Project in Computing",
-                "code" : "CP3209",
-                "MC" : 4
-            }
-        ],
-        "Semester 2" : [
-            {
-                "name" : "Foundations of Machine Learning",
-                "code" : "CS3264",
-                "MC" : 4
-            },       
-            {
-                "name" : "Algebra I (S)",
-                "code" : "MA2202S",
-                "MC" : "4/5"
-            },
-            {
-                "name" : "Introduction to Information Theory",
-                "code" : "CS3236",
-                "MC" : 4
-            },
-            {
-                "name" : "Total Defence Project Against Threat to Community",
-                "code" : "GEN2002",
-                "MC" : 2
-            },
-            {
-                "name" : "Undergraduate Research Project in Computing",
-                "code" : "CP3209",
-                "MC" : 4
-            },
-            {
-                "name" : "Quantum Computing",
-                "code" : "CS4268",
-                "MC" : 4
-            },
-            {
-                "name" : "What is a Planet?",
-                "code" : "HSI2009",
-                "MC" : 4
-            }
-        ]
-    },
     "2024-2025" : {
         "Semester 1" : [
             {
                 "name" : "Theory of Computation",
                 "code" : "CS3231",
                 "MC" : 4
-            },
+            },         
             {
-                "name" : "Optimisation Algorithms",
-                "code" : "CS4234",
-                "MC" : 4
-            },
-            {
-                "name" : "Foundations of Artificial Intelligence",
-                "code" : "CS3263",
-                "MC" : 4
+                "name" : "Intelligent Robots: Algorithms and Systems",
+                "code" : "CS4268",
+                "MC" : "4"
             },
             {
                 "name" : "Set Theory",
@@ -107,24 +25,15 @@
                 "name" : "Earth and Beyond",
                 "code" : "HS2907",
                 "MC" : 4
+            },
+            {
+                "name" : "Forensic Science",
+                "code" : "FSC2101",
+                "MC" : 4
             }
         ],
         "Semester 2" : [
-            {
-                "name" : "Fundamentals of Physics",
-                "code" : "PC1201",
-                "MC" : 4
-            },
-            {
-                "name" : "Design Thinking",
-                "code" : "DTK1234",
-                "MC" : 4
-            },
-            {
-                "name" : "Parallel and Distributed Algorithms",
-                "code" : "CS4231",
-                "MC" : 4
-            },
+
             {
                 "name" : "Game Theory",
                 "code" : "MA4262",
@@ -134,10 +43,20 @@
                 "name" : "Mathematical Logic",
                 "code" : "MA4207",
                 "MC" : 4
+            },  
+            {
+                "name" : "Foundations of Machine Learning",
+                "code" : "CS3264",
+                "MC" : 4
             },
             {
-                "name" : "Theory and Algorithms for Machine Learning",
-                "code" : "CS5339",
+                "name" : "Stochastic Operations Research",
+                "code" : "MA4260",
+                "MC" : "4"
+            },
+            {
+                "name" : "Foundations of Logic in Computer Science",
+                "code" : "CS4269",
                 "MC" : "4"
             }
         ]
@@ -165,8 +84,8 @@
                 "MC" : 4
             },
             {
-                "name" : "Database Systems",
-                "code" : "CS2102",
+                "name" : "Optimisation Algorithms",
+                "code" : "CS4234",
                 "MC" : 4
             }
         ],
@@ -183,19 +102,14 @@
                 "MC" : 4
             },
             {
-                "name" : "Parallel and Concurrent Programming",
-                "code" : "CS3211",
-                "MC" : 4
+                "name" : "Theory and Algorithms for Machine Learning",
+                "code" : "CS5339",
+                "MC" : "4"
             },
             {
                 "name" : "Natural Language Processing",
                 "code" : "CS4248",
                 "MC" : 4
-            }, 
-            {
-                "name" : "Stochastic Operations Research",
-                "code" : "MA4260",
-                "MC" : "4"
             }
         ]
     },
