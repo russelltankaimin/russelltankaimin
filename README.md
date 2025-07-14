@@ -7,7 +7,6 @@
 - 💪🏼 Future Goals: Contribute to scientific software, academic research
 - Current Project: I am currently doing my FYP on Computational Game Theory
 - Expected Graduation: May 2026, probably pursuing PhD after.
-- 
 ---
 
 Last edited on: 14/07/2025
