@@ -3,10 +3,10 @@
 ## I'm a Final Year Comp Sci and Maths Double Degree Student at NUS
 
 - 👨‍💻 Research Interests: Mathematical A.I, Machine Learning and Data Science, Combinatorial Optimisation and Applications of Pure Mathematics in Artificial Intelligence
-- 📚 Outside of research, I am also learning everything about Frontend and Backend technologies 
+- 📚 Outside of research, I am also learning more advanced Statistics, Algebraic Topology, Algorithms
 - 💪🏼 Future Goals: Contribute to scientific software, academic research
 - Current Project: I am currently doing my FYP on Computational Game Theory
-- Expected Graduation: May 2026, probably pursuing PhD after.
+- Expected Graduation: May 2026, doing AISG Accelerated Masters in Research at NUS SOC, probably pursuing PhD after.
 ---
 
-Last edited on: 14/07/2025
+Last edited on: 20/12/2025
