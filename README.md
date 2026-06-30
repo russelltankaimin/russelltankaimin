@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm [Russell!](https://russelltankm.com)
 
-## I'm a Final Year Comp Sci and Maths Double Degree Student at NUS
+## I'm a Comp Sci and Maths Double Degree Graduate from NUS
 
 - 👨‍💻 Research Interests: Mathematical A.I, Machine Learning and Data Science, Combinatorial Optimisation and Applications of Pure Mathematics in Artificial Intelligence, Applied Probability, Markov Chains
 - 📚 Outside of research, I am also learning more advanced Statistics, Algebraic Topology, Algorithms
@@ -9,4 +9,4 @@
 - Expected Graduation: May 2026, doing AISG Accelerated Masters in Research at NUS SOC, probably pursuing PhD after.
 ---
 
-Last edited on: 27/12/2025
+Last edited on: 30/06/2026
