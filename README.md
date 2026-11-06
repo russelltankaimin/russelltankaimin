@@ -2,11 +2,10 @@
 
 ## I'm a Comp Sci and Maths Double Degree Graduate from NUS
 
-- 👨‍💻 Research Interests: Mathematical A.I, Machine Learning and Data Science, Combinatorial Optimisation and Applications of Pure Mathematics in Artificial Intelligence, Applied Probability, Markov Chains
-- 📚 Outside of research, I am also learning more advanced Statistics, Algebraic Topology, Algorithms
-- 💪🏼 Future Goals: Contribute to scientific software, academic research
+- 👨‍💻 Research Interests: Math, Machine Learning and Data Science with a more theoretical flavour but with concrete practical applications
+- 📚 Outside of research, I read lots of quantum mechanics books and also play alot of CTF (cybersecurity games)
 - Current Project: I am currently continuing my project on computational game theory and doing cool math stuff with algorithms
-- Expected Graduation: June 2027, currently doing AISG Accelerated Masters in Research at NUS SOC, probably pursuing PhD after.
+- Expected Graduation: June 2027 or Aug 2027 depending on when thesis is done.
 ---
 
-Last edited on: 30/06/2026
+Last edited on: 06/11/2026
